@@ -1,0 +1,468 @@
+:root {
+  /* Dark grey palette */
+  --bg: #19191b;
+  --surface: #242426;
+  --surface-2: #2c2c2f;
+  --surface-3: #38383c;
+  --border: #3d3d42;
+  --text: #ececee;
+  --text-muted: #9a9aa2;
+  --shadow: 0 6px 16px rgba(0, 0, 0, 0.45);
+
+  /* Accent (used sparingly against the grey chrome) */
+  --accent: #7c8bff;
+  --accent-hover: #93a0ff;
+
+  /* Rating colors, desaturated to sit comfortably in a dark grey UI */
+  --again: #a34a4a;
+  --hard: #a3773f;
+  --good: #3f7fa3;
+  --easy: #3f9f6a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  color: var(--text);
+  background: var(--bg);
+}
+
+header {
+  padding: 1.25rem 1rem;
+  text-align: center;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+}
+
+header h1 {
+  margin: 0 0 0.25rem;
+  font-size: 1.4rem;
+}
+
+header p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+main {
+  padding: 1.5rem;
+  padding-bottom: 6rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ---------- Sets header / settings ---------- */
+
+.sets-header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.settings-btn {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.5rem 0.9rem;
+  background: var(--surface);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.settings-btn:hover {
+  background: var(--surface-3);
+  color: var(--text);
+}
+
+/* ---------- Sets list ---------- */
+
+.sets-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.set-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.set-item:hover {
+  background: var(--surface-2);
+  border-color: var(--accent);
+}
+
+.set-item-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.set-item-info h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.due-badge {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  background: var(--good);
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.due-badge.due-none {
+  background: var(--surface-3);
+  color: var(--text-muted);
+}
+
+.manage-btn {
+  margin-top: 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.4rem 0.75rem;
+  background: var(--surface-2);
+  color: var(--text-muted);
+  font-size: 0.85rem;  
+  cursor: pointer;
+}
+
+.manage-btn:hover {
+  background: var(--surface-3);
+  color: var(--text);
+}
+
+.delete-btn {
+  border-color: var(--again);
+  color: var(--again);
+}
+
+.delete-btn:hover {
+  background: var(--again);
+  color: var(--text);
+}
+
+.set-item-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.65rem;
+}
+
+.set-item-actions .manage-btn {
+  margin-top: 0;
+}
+
+/* ---------- Manage cards list ---------- */
+
+.manage-list {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.manage-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.manage-item-front {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--text);
+}
+
+.manage-item .manage-btn {
+  margin-top: 0;
+  flex-shrink: 0;
+}
+
+.manage-item-actions {
+  display: flex;
+  gap: 0.5rem;
+  float: right;
+}
+
+/* ---------- Review session ---------- */
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.review-header-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.review-header-actions .manage-btn {
+  margin-top: 0;
+}
+
+.section-title {
+  margin: 0;
+  color: var(--text);
+}
+
+.progress-counter {
+  color: var(--text-muted);
+  margin: 0.5rem 0 1rem;
+}
+
+.empty-state {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  perspective: 1000px;
+  margin: 0 auto;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  border: 1px solid var(--border);
+  margin: 0;
+  overflow: auto;
+  box-shadow: var(--shadow);
+}
+
+.card-front {
+  background: var(--surface-2);
+}
+
+.card-back {
+  background: var(--surface-2);
+  transform: rotateY(180deg);
+}
+
+/* ---------- Rating buttons ---------- */
+
+.rating-bar {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rating-btn {
+  flex: 1;
+  border: none;
+  border-radius: 8px;
+  padding: 0.65rem 0.5rem;
+  color: var(--text);
+  background: var(--surface-3);
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.rating-interval {
+  font-size: 0.7rem;
+  opacity: 0.8;
+  font-weight: normal;
+}
+
+.rating-btn:active {
+  opacity: 0.8;
+}
+
+/* ---------- Floating Add Card button ---------- */
+
+.fab-add-btn {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--accent);
+  color: #16161a;
+  font-size: 1.8rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  z-index: 20;
+}
+
+.fab-add-btn:hover {
+  background: var(--accent-hover);
+}
+
+.fab-add-btn:active {
+  transform: scale(0.95);
+}
+
+/* ---------- Forms (add card, edit card, settings) ---------- */
+
+.add-card-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  max-width: 420px;
+}
+
+.add-card-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.add-card-form select,
+.add-card-form textarea,
+.add-card-form input[type="text"],
+.add-card-form input[type="password"] {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  resize: vertical;
+}
+
+.add-card-form select:focus,
+.add-card-form textarea:focus,
+.add-card-form input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.retention-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.retention-row input[type="range"] {
+  flex: 1;
+  accent-color: var(--accent);
+}
+
+.retention-value {
+  min-width: 3.5rem;
+  text-align: right;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.save-card-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem;
+  background: var(--accent);
+  color: #16161a;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.save-card-btn:hover {
+  background: var(--accent-hover);
+}
+
+.form-status {
+  margin-top: 0.75rem;
+  color: var(--easy);
+  min-height: 1.2rem;
+}
+
+.latex-hint {
+  margin: -0.25rem 0 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ---------- Shared ---------- */
+
+.back-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface-2);
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.back-btn:hover {
+  background: var(--surface-3);
+  color: var(--text);
+}
+
+@media (max-width: 700px) {
+  .card {
+    height: 260px;
+  }
+}
