@@ -1,11 +1,14 @@
 {
-  "updatedAt": 1791330608560,
+  "updatedAt": 1791330621000,
   "schedule": {},
   "customCards": {},
   "customSets": [],
   "edits": {},
   "setEdits": {},
   "deletedIds": [],
-  "deletedSetIds": [],
+  "deletedSetIds": [
+    "set1",
+    "set2"
+  ],
   "retention": 0.9
 }
