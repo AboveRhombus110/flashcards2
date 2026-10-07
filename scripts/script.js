@@ -581,6 +581,31 @@ function renderMath(container) {
   }
 }
 
+// Creates a preview element that mirrors a textarea's content with LaTeX
+// rendered live, updating on every keystroke. Attach the returned element
+// right after the textarea's label in the form.
+function createLivePreview(textarea) {
+  const preview = document.createElement("div");
+  preview.className = "live-preview";
+
+  const update = () => {
+    const value = textarea.value.trim();
+    if (!value) {
+      preview.classList.add("live-preview-empty");
+      preview.textContent = "Preview appears here as you type…";
+      return;
+    }
+    preview.classList.remove("live-preview-empty");
+    preview.textContent = value;
+    renderMath(preview);
+  };
+
+  textarea.addEventListener("input", update);
+  update();
+
+  return preview;
+}
+
 // ---------- Rendering: list of sets ----------
 
 function createSetRow(set) {
@@ -669,6 +694,36 @@ function renderAllSets() {
   fab.textContent = "+";
   fab.addEventListener("click", renderAddCardForm);
   app.appendChild(fab);
+
+  const syncToast = document.createElement("div");
+  syncToast.className = "sync-toast";
+
+  const syncFab = document.createElement("button");
+  syncFab.className = "fab-sync-btn";
+  syncFab.setAttribute("aria-label", "Sync now");
+  syncFab.textContent = "⟳";
+  syncFab.addEventListener("click", () => {
+    if (!hasSyncConfig()) {
+      syncToast.textContent = "Set up Cloud Sync in Settings first.";
+      syncToast.classList.add("visible");
+      return;
+    }
+    syncNow();
+  });
+  app.appendChild(syncFab);
+  app.appendChild(syncToast);
+
+  let syncToastTimer = null;
+  onSyncStatus((message) => {
+    syncToast.textContent = message;
+    syncToast.classList.add("visible");
+    syncFab.classList.toggle("syncing", message === "Syncing…");
+
+    clearTimeout(syncToastTimer);
+    syncToastTimer = setTimeout(() => {
+      syncToast.classList.remove("visible");
+    }, 4000);
+  });
 }
 
 // ---------- Rendering: settings ----------
@@ -1038,6 +1093,7 @@ function renderAddCardForm() {
   frontInput.placeholder = "e.g. Solve $x^2 - 5x + 6 = 0$";
   frontLabel.appendChild(frontInput);
   form.appendChild(frontLabel);
+  form.appendChild(createLivePreview(frontInput));
 
   // Back
   const backLabel = document.createElement("label");
@@ -1048,6 +1104,7 @@ function renderAddCardForm() {
   backInput.placeholder = "e.g. $x = 2$ or $x = 3$";
   backLabel.appendChild(backInput);
   form.appendChild(backLabel);
+  form.appendChild(createLivePreview(backInput));
 
   const latexHint = document.createElement("p");
   latexHint.className = "latex-hint";
@@ -1239,6 +1296,7 @@ function renderEditCardForm(set, card) {
   frontInput.value = card.front;
   frontLabel.appendChild(frontInput);
   form.appendChild(frontLabel);
+  form.appendChild(createLivePreview(frontInput));
 
   // Back
   const backLabel = document.createElement("label");
@@ -1249,6 +1307,7 @@ function renderEditCardForm(set, card) {
   backInput.value = card.back;
   backLabel.appendChild(backInput);
   form.appendChild(backLabel);
+  form.appendChild(createLivePreview(backInput));
 
   const latexHint = document.createElement("p");
   latexHint.className = "latex-hint";
