@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792000959930,
+  "updatedAt": 1792001172437,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -47,6 +47,16 @@
         "id": "custom-mv8f3q2i-0yc0sp",
         "front": "What does almost surely mean?",
         "back": "An event occurs with probability 100% so event space of it not happening has measure 0."
+      },
+      {
+        "id": "custom-mv8f4ibq-6g4fu0",
+        "front": "Any martingale is also martingale in ...",
+        "back": "Any martingale is also martingale in its natural filtration"
+      },
+      {
+        "id": "custom-mv8f8a1g-7kbs94",
+        "front": "What is conditional expectation?",
+        "back": "$\\mathbb{E}(\\cdot | B)$ and if $X$ is integrable, \n$$ \\mathbb{E}(X | B) =  \\frac{\\mathbb{E}(X 1_B)}{P(B)}$$"
       }
     ]
   },
