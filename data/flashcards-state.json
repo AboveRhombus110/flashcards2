@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792006296414,
+  "updatedAt": 1792006410144,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -144,6 +144,11 @@
         "id": "custom-mv8ia3q6-fahipm",
         "front": "How would you show the uniqueness of coefficients for an asymptotic series?",
         "back": "We have \n$$\\lim_{x \\to x_0} \\frac{f(x) - \\sum_0^N a_k \\phi_k}{\\phi_N} = 0$$\nso let $N = 0$ to find \n$$\\lim_{x \\to x_0} \\frac{f(x)}{\\phi_o} - a_0 = 0$$\nwe can induct across N to find generally\n$$a_n = \\lim_{x \\to x_0} \\frac{f(x) - \\sum^{n-1}a_k \\phi_k(x)}{\\phi_n(x)}$$"
+      },
+      {
+        "id": "custom-mv8icjhc-ehc6m3",
+        "front": "When is a term \"small beyond all orders\" in some limit?",
+        "back": "If it has no power series (smaller than any power) for example, $e^{-x}$ as $x \\to \\infty$ since  $e^{-x} << x^{-k} \\; \\forall k$"
       }
     ]
   },
