@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791973577141,
+  "updatedAt": 1791975442032,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -17,6 +17,11 @@
         "id": "custom-mv7ystdh-e1umq1",
         "front": "What does it mean for a random process $(X_n)_{n \\ge 0}$ to be adapted?",
         "back": "$\\forall n, X_n \\text{ is } F_n \\text{-measurable}$. If no filtration is specified, the natural filtration is assumed."
+      },
+      {
+        "id": "custom-mv7zwsc0-qlvdgy",
+        "front": "What does it mean for a random variable $X_n$ to be $\\mathcal{F}$-measurable?",
+        "back": "If for every $A \\in \\mathbb{B(R)}$, $\\{\\omega \\in \\Omega :  X_n(\\omega) \\in A\\} \\in \\mathbb{\\mathcal{F}}$\n\nwhere the Borel Set is the collection of all subsets of $\\Omega$ including all countable unions/intersections and all complements."
       }
     ]
   },
