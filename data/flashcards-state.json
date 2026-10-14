@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792000741346,
+  "updatedAt": 1792000863443,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -37,6 +37,11 @@
         "id": "custom-mv8ez1ep-owcwu7",
         "front": "When is $X_n$ super-martingale?",
         "back": "Has the other martingale properties and\n$$\\mathbb{E}(X_{n+1}1_A) \\le \\mathbb{E}(X_n 1_A)$$"
+      },
+      {
+        "id": "custom-mv8ezudt-r21601",
+        "front": "When is $X_n$ sub-martingale?",
+        "back": "Has the other martingale properties and\n$$\\mathbb{E}(X_{n+1}1_A) \\ge \\mathbb{E}(X_n 1_A)$$"
       }
     ]
   },
@@ -60,7 +65,12 @@
       "cards": []
     }
   ],
-  "edits": {},
+  "edits": {
+    "custom-mv8eevtj-oqksxj": {
+      "front": "What properties are required to make $X_n$ martingale?",
+      "back": "$\\forall n \\\\$a) $X_n$ is $\\mathcal{F}_n$-measurable $\\\\$\nb) $X_n$ is integrable $\\iff \\mathbb{E}(|X_n|) < \\infty \\\\$\nc) $\\forall A \\in \\mathcal{F}_n, \\mathbb{E}(X_{n+1}1_A = \\mathbb{E}(X_n 1_A))\\\\$\nc ii) Equivalent to $\\mathbb{E}(X_{n+1} |\\mathcal{F}_n  ) = X_n$"
+    }
+  },
   "setEdits": {},
   "deletedIds": [],
   "deletedSetIds": [
