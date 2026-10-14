@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791973335364,
+  "updatedAt": 1791973411770,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -7,6 +7,11 @@
         "id": "custom-mv7ynmtg-kbn6kw",
         "front": "What is a filtration given a probability space $(\\Omega, \\mathcal{F}, \\mathbb{P})$?",
         "back": "A family of $\\sigma$-algebras $(\\mathcal{F}_n)_{n \\ge 0}$ such that $\\mathcal{F_n} \\subseteq \\mathcal{F_{n+1}} \\subseteq \\mathcal{F} \\quad \\forall n$"
+      },
+      {
+        "id": "custom-mv7yp9rt-j5b25r",
+        "front": "What is a random process?",
+        "back": "A family of random variables $(X_n)_{n \\ge 0})$ where $X: \\Omega \\to \\mathbb{R}$"
       }
     ]
   },
