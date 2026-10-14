@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792005247104,
+  "updatedAt": 1792005313115,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -104,6 +104,11 @@
         "id": "custom-mv8hnm2n-ny8pcu",
         "front": "What is asymptotic equality?",
         "back": "For $f,g$ real functions, we say $f \\sim  g$ about $x = x_0$ if $$\\lim_{x \\to x_0} \\frac{f(x)}{g(x)} = 1$$."
+      },
+      {
+        "id": "custom-mv8hp10b-pwcxh9",
+        "front": "If 2 functions are asymptotically equal, what is the dominant term?",
+        "back": "In the approximation, $f = g + (f-g),\\; g$ is the dominant term"
       }
     ]
   },
