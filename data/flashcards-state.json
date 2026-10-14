@@ -1,7 +1,15 @@
 {
-  "updatedAt": 1791973087387,
+  "updatedAt": 1791973335364,
   "schedule": {},
-  "customCards": {},
+  "customCards": {
+    "customset-mv7yibh6-dl43np": [
+      {
+        "id": "custom-mv7ynmtg-kbn6kw",
+        "front": "What is a filtration given a probability space $(\\Omega, \\mathcal{F}, \\mathbb{P})$?",
+        "back": "A family of $\\sigma$-algebras $(\\mathcal{F}_n)_{n \\ge 0}$ such that $\\mathcal{F_n} \\subseteq \\mathcal{F_{n+1}} \\subseteq \\mathcal{F} \\quad \\forall n$"
+      }
+    ]
+  },
   "customSets": [
     {
       "id": "customset-muxc06t6-io71xg",
