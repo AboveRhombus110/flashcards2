@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791999517172,
+  "updatedAt": 1791999800984,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -27,6 +27,11 @@
         "id": "custom-mv8e8stu-tjwykd",
         "front": "What is the natural filtration of $(X_n)_{n\\ge 0}$?",
         "back": "The natural filtration is the smallest filtration making $(X_n)$ adapted. It is constructed as $$\nF_n^X = \\sigma (X_k : 0 \\le k \\le n) = \\sigma (X_0, X_1,\\dots , X_n)$$"
+      },
+      {
+        "id": "custom-mv8eevtj-oqksxj",
+        "front": "What properties are required to make $X_n$ martingale?",
+        "back": "$\\forall n \\\\$a) $X_n$ is $\\mathcal{F}_n$-measurable $\\\\$\nb) $X_n$ is integrable $\\iff \\mathbb{E}(|X_n|) < \\infty \\\\$\nc) $\\forall A \\in \\mathcal{F}_n, \\mathbb{E}(X_{n+1}1_A = \\mathbb{E}(X_n 1_A))$"
       }
     ]
   },
