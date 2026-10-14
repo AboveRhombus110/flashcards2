@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792003755634,
+  "updatedAt": 1792004770236,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -87,6 +87,11 @@
         "id": "custom-mv8grn8y-t8rdpz",
         "front": "What is the Optimal Stopping Theorem 2?",
         "back": "Let $(M_n)_{n \\ge 0}$ be martingale process and let $T$ be a finite-valued stopping time. If $\\exist C < \\infty$ such that one of the two hold: $\\\\$\na) $|M_n| \\le C \\quad \\forall n \\le T \\\\$\nb) $\\mathbb{E}(T) < \\infty$ and $|M_n - M_{n-1}| \\le C \\quad \\forall n \\le T \\\\$\nThen, $\\mathbb{E}(M_T) = \\mathbb{E}(M_0)$"
+      },
+      {
+        "id": "custom-mv8hde4c-qnpfea",
+        "front": "Prove Optimal Stopping Theorem 2: $\\\\$\nLet $(M_n)_{n \\ge 0}$ be martingale process and let $T$ be a finite-valued stopping time. If $\\exist C < \\infty$ such that one of the two hold: $\\\\$\na) ...$\\\\$\nb) ...$\\\\$\nThen, ...",
+        "back": "Define $T_n = min(T,n)$ so $T_n$ is a bounded stopping time. Since $T$ is finite, $T = T_n$ eventually so $M_{T_n} \\to M_T$ as $n \\to \\infty$ and by Optimal Stopping Theorem 1, $\\mathbb{E}(M_{T_n}) = \\mathbb{E}(M_0) \\\\$  If (a) $|M_n| \\le C \\: \\forall n \\le T $ holds then $\\sup_{n} |M_{T_n}| \\le C$ so $\\mathbb{E}(M_{T_n}) \\to \\mathbb{E}(M_T)$ by bounded convergence. $\\\\$\nIf (b) $\\mathbb{E}(T) < \\infty$ and $|M_n - M_{n-1}| \\le C \\: \\forall n \\le T$ holds then $\\sup_n |M_{T_n}| \\le CT + M_0$ and by dominated convergence $\\mathbb{E}(M_{T_n}) \\to \\mathbb{E}(M_T) \\\\$\nThen letting $n \\to \\infty$, $\\mathbb{E}(M_T) = \\mathbb{E}(M_0)$"
       }
     ]
   },
