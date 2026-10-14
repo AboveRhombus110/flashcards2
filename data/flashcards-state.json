@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792002876711,
+  "updatedAt": 1792002970238,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -72,6 +72,11 @@
         "id": "custom-mv8g8t2e-fn2unp",
         "front": "What is a stopping time?",
         "back": "A random time $T: \\Omega \\to \\{ 0,1,2\\} \\cup \\{ \\infty \\} $ where $\\{ T \\le n \\} \\in \\mathcal{F}_n \\quad \\forall n$"
+      },
+      {
+        "id": "custom-mv8gat8e-dhzdc6",
+        "front": "What is optimal stopping theorem 1?",
+        "back": "If $(M_n)_{n \\ge 0}$ is a martingale process and $T$ is a bounded stopping time. Then $$\\mathbb{E}(M_T) = \\mathbb{E}(M_0)$$"
       }
     ]
   },
