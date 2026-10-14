@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791975442032,
+  "updatedAt": 1791999517172,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -22,6 +22,11 @@
         "id": "custom-mv7zwsc0-qlvdgy",
         "front": "What does it mean for a random variable $X_n$ to be $\\mathcal{F}$-measurable?",
         "back": "If for every $A \\in \\mathbb{B(R)}$, $\\{\\omega \\in \\Omega :  X_n(\\omega) \\in A\\} \\in \\mathbb{\\mathcal{F}}$\n\nwhere the Borel Set is the collection of all subsets of $\\Omega$ including all countable unions/intersections and all complements."
+      },
+      {
+        "id": "custom-mv8e8stu-tjwykd",
+        "front": "What is the natural filtration of $(X_n)_{n\\ge 0}$?",
+        "back": "The natural filtration is the smallest filtration making $(X_n)$ adapted. It is constructed as $$\nF_n^X = \\sigma (X_k : 0 \\le k \\le n) = \\sigma (X_0, X_1,\\dots , X_n)$$"
       }
     ]
   },
