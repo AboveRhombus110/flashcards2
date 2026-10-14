@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792005710968,
+  "updatedAt": 1792005919603,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -129,6 +129,11 @@
         "id": "custom-mv8hxjzr-y6htif",
         "front": "What is an asymptotic sequence?",
         "back": "$\\{ \\phi_i (x)\\}_{i=1}^n$ as $x \\to x_0$ if \n$$\\phi_{i+1} << \\phi_i \\quad\\forall i$$\nFor example, $\\phi_i = (x-a)^i$ as $x \\to a$"
+      },
+      {
+        "id": "custom-mv8i20z7-06iphq",
+        "front": "What is an N-term asymptotic approximation?",
+        "back": "Given an asymptotic sequence $\\{ \\phi_k(x)\\}$ as $x \\to x_0$, \n$$f(x) \\sim\\sum_0^N a_k \\phi_k (x)$$\nif $$ f(x) = \\sum_0^N a_k \\phi_k (x) + o(\\phi_N(x)) $$"
       }
     ]
   },
