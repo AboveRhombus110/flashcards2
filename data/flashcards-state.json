@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792005998825,
+  "updatedAt": 1792006296414,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -139,6 +139,11 @@
         "id": "custom-mv8i3q3s-qqjcgm",
         "front": "What is an asymptotic series/expansion?",
         "back": "If an N-term asymptotic approximation holds for all n, then we say $$f(x) \\sim \\sum_0^{\\infty} a_k \\phi_k (x) \\text{ as }  x \\to x_0 $$"
+      },
+      {
+        "id": "custom-mv8ia3q6-fahipm",
+        "front": "How would you show the uniqueness of coefficients for an asymptotic series?",
+        "back": "We have \n$$\\lim_{x \\to x_0} \\frac{f(x) - \\sum_0^N a_k \\phi_k}{\\phi_N} = 0$$\nso let $N = 0$ to find \n$$\\lim_{x \\to x_0} \\frac{f(x)}{\\phi_o} - a_0 = 0$$\nwe can induct across N to find generally\n$$a_n = \\lim_{x \\to x_0} \\frac{f(x) - \\sum^{n-1}a_k \\phi_k(x)}{\\phi_n(x)}$$"
       }
     ]
   },
