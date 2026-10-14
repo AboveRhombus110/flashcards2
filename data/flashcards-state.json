@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792002970238,
+  "updatedAt": 1792003492867,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -77,6 +77,11 @@
         "id": "custom-mv8gat8e-dhzdc6",
         "front": "What is optimal stopping theorem 1?",
         "back": "If $(M_n)_{n \\ge 0}$ is a martingale process and $T$ is a bounded stopping time. Then $$\\mathbb{E}(M_T) = \\mathbb{E}(M_0)$$"
+      },
+      {
+        "id": "custom-mv8gm0hu-zp13ct",
+        "front": "Prove Optimal Stopping Theorem 1: $\\\\(M_n)_{n \\ge 0}$ is a martingale process and $T$ is a bounded stopping time. Then...",
+        "back": "Choose $n$ such that $T \\le n$ (Bounded),\n$$\\begin{align*}\nM_T & = M_0 + (M_1 - M_0) + (M_2 - M_1) + \\dots + (M_T - M_{T-1}) \\\\\n& = M_0 + \\sum_{k=1}^n (M_k - M_{k-1}) 1_{T \\ge k}\n\\end{align*}$$\nso since $\\{ T \\ge k\\} = \\{ T \\le k-1\\}^c \\in \\mathcal{F}_{k-1}$, we have by the martingale property $$ \\mathbb{E}((M_k - M_{k-1})1_{T \\ge k}) = 0 \\quad \\forall k$$"
       }
     ]
   },
