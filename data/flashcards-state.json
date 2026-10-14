@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792005090635,
+  "updatedAt": 1792005247104,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -97,6 +97,13 @@
         "id": "custom-mv8hk9ca-jla575",
         "front": "What is the tower property? Prove it.",
         "back": "If $H \\subseteq G$ is a $\\sigma$-algebra. Then $\\mathbb{E}(\\mathbb{E}(X|G)|H) = \\mathbb{E}(X|H) \\\\$\nLet $Y = \\mathbb{E}(\\mathbb{E}(X|G)|H)$ almost surely then if $A \\in H \\implies A \\in G$ so \n$$ \\mathbb{E}(Y 1_A) = \\mathbb{E}(\\mathbb{E}(X|G)1_A) = \\mathbb{E}(X 1_A)$$\nSince Y is integrable and $H$-measurable, $Y = \\mathbb{E}(X|H)$ almost surely"
+      }
+    ],
+    "customset-muy86sgg-5yl8nl": [
+      {
+        "id": "custom-mv8hnm2n-ny8pcu",
+        "front": "What is asymptotic equality?",
+        "back": "For $f,g$ real functions, we say $f \\sim  g$ about $x = x_0$ if $$\\lim_{x \\to x_0} \\frac{f(x)}{g(x)} = 1$$."
       }
     ]
   },
