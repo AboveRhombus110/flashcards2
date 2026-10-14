@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792005919603,
+  "updatedAt": 1792005998825,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -134,6 +134,11 @@
         "id": "custom-mv8i20z7-06iphq",
         "front": "What is an N-term asymptotic approximation?",
         "back": "Given an asymptotic sequence $\\{ \\phi_k(x)\\}$ as $x \\to x_0$, \n$$f(x) \\sim\\sum_0^N a_k \\phi_k (x)$$\nif $$ f(x) = \\sum_0^N a_k \\phi_k (x) + o(\\phi_N(x)) $$"
+      },
+      {
+        "id": "custom-mv8i3q3s-qqjcgm",
+        "front": "What is an asymptotic series/expansion?",
+        "back": "If an N-term asymptotic approximation holds for all n, then we say $$f(x) \\sim \\sum_0^{\\infty} a_k \\phi_k (x) \\text{ as }  x \\to x_0 $$"
       }
     ]
   },
