@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791384683921,
+  "updatedAt": 1791973087387,
   "schedule": {},
   "customCards": {},
   "customSets": [
@@ -12,6 +12,12 @@
     {
       "id": "customset-muy86sgg-5yl8nl",
       "title": "Asymptotic Methods",
+      "description": "",
+      "cards": []
+    },
+    {
+      "id": "customset-mv7yibh6-dl43np",
+      "title": "Stochastic Finanical Modelling",
       "description": "",
       "cards": []
     }
