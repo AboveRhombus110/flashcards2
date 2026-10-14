@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792001172437,
+  "updatedAt": 1792001445338,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -57,6 +57,11 @@
         "id": "custom-mv8f8a1g-7kbs94",
         "front": "What is conditional expectation?",
         "back": "$\\mathbb{E}(\\cdot | B)$ and if $X$ is integrable, \n$$ \\mathbb{E}(X | B) =  \\frac{\\mathbb{E}(X 1_B)}{P(B)}$$"
+      },
+      {
+        "id": "custom-mv8fe4m1-q70gns",
+        "front": "If $G \\subseteq \\mathcal{F} $ is a $\\sigma$- algebra and $X$ is an integrable random variable. Then $\\exist Y$ an integrable random variable with properties...",
+        "back": "a) $Y$ is $G$-measurable $\\\\$\nb) $\\mathbb{E}(Y 1_A) = \\mathbb{E}(X 1_A) \\quad \\forall A \\in G \\\\$\nso $Y = \\mathbb{E}(X | G)$ is the conditional expectation of $X$ given $G$"
       }
     ]
   },
