@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792005313115,
+  "updatedAt": 1792005473747,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -109,6 +109,16 @@
         "id": "custom-mv8hp10b-pwcxh9",
         "front": "If 2 functions are asymptotically equal, what is the dominant term?",
         "back": "In the approximation, $f = g + (f-g),\\; g$ is the dominant term"
+      },
+      {
+        "id": "custom-mv8hq0ss-0wlqus",
+        "front": "If 2 functions are asymptotically equal, what is the subdominant term?",
+        "back": "In the approximation, $f = g + (f-g), \\; (f-g)$ is the subdominant term"
+      },
+      {
+        "id": "custom-mv8hsgyb-780ta3",
+        "front": "What does it mean to be little \"o\"?",
+        "back": "$f(x) = o(g(x))$ if \n$$\\lim_{x \\to x_0} \\frac{f(x)}{g(x)} = 0 $$\nor $f(x) << g(x)$ as $x \\to x_0$"
       }
     ]
   },
