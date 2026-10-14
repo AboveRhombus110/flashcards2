@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792005545275,
+  "updatedAt": 1792005710968,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -124,6 +124,11 @@
         "id": "custom-mv8hu057-5tznjh",
         "front": "What does it mean to be big \"O\"?",
         "back": "$f(x) = O(g(x))$ if $\\exist c > 0$ such that $|f(x)| \\le cg(x)$ close to $x_0$"
+      },
+      {
+        "id": "custom-mv8hxjzr-y6htif",
+        "front": "What is an asymptotic sequence?",
+        "back": "$\\{ \\phi_i (x)\\}_{i=1}^n$ as $x \\to x_0$ if \n$$\\phi_{i+1} << \\phi_i \\quad\\forall i$$\nFor example, $\\phi_i = (x-a)^i$ as $x \\to a$"
       }
     ]
   },
