@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792005473747,
+  "updatedAt": 1792005545275,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -119,6 +119,11 @@
         "id": "custom-mv8hsgyb-780ta3",
         "front": "What does it mean to be little \"o\"?",
         "back": "$f(x) = o(g(x))$ if \n$$\\lim_{x \\to x_0} \\frac{f(x)}{g(x)} = 0 $$\nor $f(x) << g(x)$ as $x \\to x_0$"
+      },
+      {
+        "id": "custom-mv8hu057-5tznjh",
+        "front": "What does it mean to be big \"O\"?",
+        "back": "$f(x) = O(g(x))$ if $\\exist c > 0$ such that $|f(x)| \\le cg(x)$ close to $x_0$"
       }
     ]
   },
