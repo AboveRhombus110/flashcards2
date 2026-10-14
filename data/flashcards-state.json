@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792001445338,
+  "updatedAt": 1792002492431,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -62,6 +62,11 @@
         "id": "custom-mv8fe4m1-q70gns",
         "front": "If $G \\subseteq \\mathcal{F} $ is a $\\sigma$- algebra and $X$ is an integrable random variable. Then $\\exist Y$ an integrable random variable with properties...",
         "back": "a) $Y$ is $G$-measurable $\\\\$\nb) $\\mathbb{E}(Y 1_A) = \\mathbb{E}(X 1_A) \\quad \\forall A \\in G \\\\$\nso $Y = \\mathbb{E}(X | G)$ is the conditional expectation of $X$ given $G$"
+      },
+      {
+        "id": "custom-mv8g0kjz-ft3ec6",
+        "front": "If $Y = \\mathbb{E}(X | G)$, prove it is unique almost surely",
+        "back": "Consider another random variable $X' \\ge X$ almost surely and suppose $Y' = \\mathbb{E}(X' | G)$. Let $A = \\{Y' \\ge Y\\}$ and consider $Z = (Y - Y')1_A$. Since $A \\in G$,\n$$ \\mathbb{E}(Y 1_A) = \\mathbb{E}(X 1_A) \\le \\mathbb{E}(X' 1_A) = \\mathbb{E}(Y' 1_A)$$\nSo, $\\mathbb{E}(Z) \\le  0$ so $Z = 0 \\implies Y \\le Y'$. If $X = X'$, we use symmetry to show $Y = Y'$ almost surely."
       }
     ]
   },
