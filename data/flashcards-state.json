@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1791973411770,
+  "updatedAt": 1791973577141,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -12,6 +12,11 @@
         "id": "custom-mv7yp9rt-j5b25r",
         "front": "What is a random process?",
         "back": "A family of random variables $(X_n)_{n \\ge 0})$ where $X: \\Omega \\to \\mathbb{R}$"
+      },
+      {
+        "id": "custom-mv7ystdh-e1umq1",
+        "front": "What does it mean for a random process $(X_n)_{n \\ge 0}$ to be adapted?",
+        "back": "$\\forall n, X_n \\text{ is } F_n \\text{-measurable}$. If no filtration is specified, the natural filtration is assumed."
       }
     ]
   },
