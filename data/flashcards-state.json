@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792077072305,
+  "updatedAt": 1792077082966,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.276079999999999,
@@ -98,6 +98,20 @@
       "due": 1792077672305,
       "reps": 1,
       "lastReview": 1792077072305
+    },
+    "custom-mv8gat8e-dhzdc6": {
+      "difficulty": 8,
+      "stability": 0.4,
+      "due": 1792077675019,
+      "reps": 1,
+      "lastReview": 1792077075019
+    },
+    "custom-mv8gm0hu-zp13ct": {
+      "difficulty": 8,
+      "stability": 0.4,
+      "due": 1792077682966,
+      "reps": 1,
+      "lastReview": 1792077082966
     }
   },
   "customCards": {
