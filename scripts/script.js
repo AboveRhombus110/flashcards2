@@ -1424,8 +1424,8 @@ function renderReviewSession(set, queue, index, totalDue, mode) {
 
   const backEl = document.createElement("div");
   frontEl.className = "card-face-text";
-  frontEl.style.display = "none";
-  frontEl.innerHTML = card.back;
+  backEl.style.display = "none";
+  backEl.innerHTML = card.back;
 
   contentBox.appendChild(frontEl);
   contentBox.appendChild(backEl);
@@ -1435,11 +1435,12 @@ function renderReviewSession(set, queue, index, totalDue, mode) {
   ratingBar.className = "rating-bar";
   ratingBar.style.display = "none";
 
+  // Clean labels without numbers
   const ratings = [
-    { key: "again", label: "1: Again" },
-    { key: "hard", label: "2: Hard" },
-    { key: "good", label: "3: Good" },
-    { key: "easy", label: "4: Easy" },
+    { key: "again", label: "Again" },
+    { key: "hard", label: "Hard" },
+    { key: "good", label: "Good" },
+    { key: "easy", label: "Easy" },
   ];
 
   const preview = previewIntervals(card.id);
@@ -1457,6 +1458,12 @@ function renderReviewSession(set, queue, index, totalDue, mode) {
       backEl.style.display = "block";
       ratingBar.style.display = "flex";
       renderMath(backEl);
+    } else {
+      showingBack = false;
+      backEl.style.display = "none";
+      frontEl.style.display = "block";
+      ratingBar.style.display = "none";
+      renderMath(frontEl);
     }
   }
 
@@ -1472,7 +1479,7 @@ function renderReviewSession(set, queue, index, totalDue, mode) {
     ratingBar.appendChild(btn);
   });
 
-  // Click card to toggle front/back
+  // Click card to toggle back and forth
   cardEl.addEventListener("click", () => {
     toggleCardFace();
   });
@@ -1485,13 +1492,11 @@ function renderReviewSession(set, queue, index, totalDue, mode) {
 
   // Keyboard shortcuts listener for Spacebar and 1, 2, 3, 4
   const keyHandler = (e) => {
-    // Prevent spacebar from scrolling the page down
     if (e.code === "Space") {
       e.preventDefault();
       toggleCardFace();
     }
 
-    // Rating shortcuts are active once the back of the card is visible
     if (showingBack) {
       if (e.key === "1") handleRating("again");
       if (e.key === "2") handleRating("hard");
