@@ -1,12 +1,33 @@
 {
-  "updatedAt": 1792062181193,
+  "updatedAt": 1792074852031,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
-      "difficulty": 6,
-      "stability": 1,
-      "due": 1792148574920,
+      "difficulty": 6.8,
+      "stability": 0.2,
+      "due": 1792075449142,
+      "reps": 2,
+      "lastReview": 1792074849142
+    },
+    "custom-mv7yp9rt-j5b25r": {
+      "difficulty": 8,
+      "stability": 0.4,
+      "due": 1792075450791,
       "reps": 1,
-      "lastReview": 1792062174920
+      "lastReview": 1792074850791
+    },
+    "custom-mv7ystdh-e1umq1": {
+      "difficulty": 8,
+      "stability": 0.4,
+      "due": 1792075452031,
+      "reps": 1,
+      "lastReview": 1792074852031
+    },
+    "custom-mv7zwsc0-qlvdgy": {
+      "difficulty": 8,
+      "stability": 0.4,
+      "due": 1792075454665,
+      "reps": 1,
+      "lastReview": 1792074854665
     }
   },
   "customCards": {
