@@ -281,6 +281,7 @@ main {
   word-break: break-word;
   overflow-wrap: break-word;
   white-space: pre-wrap; /* Preserves multi-line spacing & line breaks from JSON */
+  text-align: center;
 }
 
 .katex-display {
