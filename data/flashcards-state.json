@@ -1,6 +1,14 @@
 {
-  "updatedAt": 1792062141337,
-  "schedule": {},
+  "updatedAt": 1792062181193,
+  "schedule": {
+    "custom-mv7ynmtg-kbn6kw": {
+      "difficulty": 6,
+      "stability": 1,
+      "due": 1792148574920,
+      "reps": 1,
+      "lastReview": 1792062174920
+    }
+  },
   "customCards": {
     "customset-mv7yibh6-dl43np": [
       {
