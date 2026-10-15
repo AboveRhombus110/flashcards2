@@ -1361,17 +1361,23 @@ function renderReviewSession(set, queue, index, totalDue, mode) {
 
   const header = document.createElement("div");
   header.className = "review-header";
+  header.style.justifyContent = "space-between";
 
+  // Left side: Back to sets button
+  const backBtn = document.createElement("button");
+  backBtn.className = "back-btn";
+  backBtn.textContent = "← Back to sets";
+  backBtn.addEventListener("click", () => {
+    cleanup();
+    renderAllSets();
+  });
+  header.appendChild(backBtn);
+
+  // Right side / Title
   const title = document.createElement("h2");
   title.className = "section-title";
   title.textContent = set.title + (mode === "all" ? " — Study All" : "");
   header.appendChild(title);
-
-  const backBtn = document.createElement("button");
-  backBtn.className = "back-btn";
-  backBtn.textContent = "Back to sets";
-  backBtn.addEventListener("click", renderAllSets);
-  header.appendChild(backBtn);
 
   session.appendChild(header);
 
@@ -1403,30 +1409,56 @@ function renderReviewSession(set, queue, index, totalDue, mode) {
 
   const card = queue[index];
 
+  // Card display container (Flat screen switch)
   const cardEl = document.createElement("article");
-  cardEl.className = "card";
+  cardEl.className = "card card-flat-display";
 
-  const inner = document.createElement("div");
-  inner.className = "card-inner";
-  inner.innerHTML =
-    '<p class="card-face card-front">' +
-    card.front +
-    '</p><p class="card-face card-back">' +
-    card.back +
-    "</p>";
+  const contentBox = document.createElement("div");
+  contentBox.className = "card-content-box";
+
+  let showingBack = false;
+  
+  const frontEl = document.createElement("div");
+  frontEl.className = "card-face-text";
+  frontEl.innerHTML = card.front;
+
+  const backEl = document.createElement("div");
+  frontEl.className = "card-face-text";
+  frontEl.style.display = "none";
+  frontEl.innerHTML = card.back;
+
+  contentBox.appendChild(frontEl);
+  contentBox.appendChild(backEl);
+  cardEl.appendChild(contentBox);
 
   const ratingBar = document.createElement("div");
   ratingBar.className = "rating-bar";
   ratingBar.style.display = "none";
 
   const ratings = [
-    { key: "again", label: "Again" },
-    { key: "hard", label: "Hard" },
-    { key: "good", label: "Good" },
-    { key: "easy", label: "Easy" },
+    { key: "again", label: "1: Again" },
+    { key: "hard", label: "2: Hard" },
+    { key: "good", label: "3: Good" },
+    { key: "easy", label: "4: Easy" },
   ];
 
   const preview = previewIntervals(card.id);
+
+  function handleRating(ratingKey) {
+    cleanup();
+    rateCard(card.id, ratingKey);
+    renderReviewSession(set, queue, index + 1, totalDue, mode);
+  }
+
+  function toggleCardFace() {
+    if (!showingBack) {
+      showingBack = true;
+      frontEl.style.display = "none";
+      backEl.style.display = "block";
+      ratingBar.style.display = "flex";
+      renderMath(backEl);
+    }
+  }
 
   ratings.forEach((r) => {
     const btn = document.createElement("button");
@@ -1435,24 +1467,44 @@ function renderReviewSession(set, queue, index, totalDue, mode) {
       r.label + '<span class="rating-interval">' + preview[r.key] + "</span>";
     btn.addEventListener("click", (e) => {
       e.stopPropagation();
-      rateCard(card.id, r.key);
-      renderReviewSession(set, queue, index + 1, totalDue, mode);
+      handleRating(r.key);
     });
     ratingBar.appendChild(btn);
   });
 
-  inner.addEventListener("click", () => {
-    const flipped = cardEl.classList.toggle("flipped");
-    ratingBar.style.display = flipped ? "flex" : "none";
+  // Click card to toggle front/back
+  cardEl.addEventListener("click", () => {
+    toggleCardFace();
   });
 
-  cardEl.appendChild(inner);
   session.appendChild(cardEl);
   session.appendChild(ratingBar);
-
   app.appendChild(session);
 
-  renderMath(inner);
+  renderMath(frontEl);
+
+  // Keyboard shortcuts listener for Spacebar and 1, 2, 3, 4
+  const keyHandler = (e) => {
+    // Prevent spacebar from scrolling the page down
+    if (e.code === "Space") {
+      e.preventDefault();
+      toggleCardFace();
+    }
+
+    // Rating shortcuts are active once the back of the card is visible
+    if (showingBack) {
+      if (e.key === "1") handleRating("again");
+      if (e.key === "2") handleRating("hard");
+      if (e.key === "3") handleRating("good");
+      if (e.key === "4") handleRating("easy");
+    }
+  };
+
+  const cleanup = () => {
+    window.removeEventListener("keydown", keyHandler);
+  };
+
+  window.addEventListener("keydown", keyHandler);
 }
 
 // ---------- Cloud sync (GitHub) ----------
