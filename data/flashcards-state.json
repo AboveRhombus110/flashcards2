@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792056778714,
+  "updatedAt": 1792062141337,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -190,7 +190,11 @@
       "back": "$\\forall n \\\\$a) $X_n$ is $\\mathcal{F}_n$-measurable $\\\\$\nb) $X_n$ is integrable $\\iff \\mathbb{E}(|X_n|) < \\infty \\\\$\nc) $\\forall A \\in \\mathcal{F}_n, \\mathbb{E}(X_{n+1}1_A = \\mathbb{E}(X_n 1_A))\\\\$\nc ii) Equivalent to $\\mathbb{E}(X_{n+1} |\\mathcal{F}_n  ) = X_n$"
     }
   },
-  "setEdits": {},
+  "setEdits": {
+    "customset-mv7yibh6-dl43np": {
+      "title": "Stochastic Financial Modelling"
+    }
+  },
   "deletedIds": [],
   "deletedSetIds": [
     "set1",
