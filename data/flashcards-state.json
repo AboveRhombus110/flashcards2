@@ -1,33 +1,82 @@
 {
-  "updatedAt": 1792074852031,
+  "updatedAt": 1792074920728,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
-      "difficulty": 6.8,
+      "difficulty": 7.52,
       "stability": 0.2,
-      "due": 1792075449142,
-      "reps": 2,
-      "lastReview": 1792074849142
+      "due": 1792075509604,
+      "reps": 3,
+      "lastReview": 1792074909604
     },
     "custom-mv7yp9rt-j5b25r": {
-      "difficulty": 8,
-      "stability": 0.4,
-      "due": 1792075450791,
-      "reps": 1,
-      "lastReview": 1792074850791
+      "difficulty": 8.6,
+      "stability": 0.2,
+      "due": 1792075510735,
+      "reps": 2,
+      "lastReview": 1792074910735
     },
     "custom-mv7ystdh-e1umq1": {
-      "difficulty": 8,
-      "stability": 0.4,
-      "due": 1792075452031,
-      "reps": 1,
-      "lastReview": 1792074852031
+      "difficulty": 8.6,
+      "stability": 0.2,
+      "due": 1792075511695,
+      "reps": 2,
+      "lastReview": 1792074911695
     },
     "custom-mv7zwsc0-qlvdgy": {
+      "difficulty": 8.6,
+      "stability": 0.2,
+      "due": 1792075512536,
+      "reps": 2,
+      "lastReview": 1792074912536
+    },
+    "custom-mv8e8stu-tjwykd": {
+      "difficulty": 8.6,
+      "stability": 0.2,
+      "due": 1792075514024,
+      "reps": 2,
+      "lastReview": 1792074914024
+    },
+    "custom-mv8eevtj-oqksxj": {
+      "difficulty": 8.6,
+      "stability": 0.2,
+      "due": 1792075515063,
+      "reps": 2,
+      "lastReview": 1792074915063
+    },
+    "custom-mv8ez1ep-owcwu7": {
       "difficulty": 8,
       "stability": 0.4,
-      "due": 1792075454665,
+      "due": 1792075516102,
       "reps": 1,
-      "lastReview": 1792074854665
+      "lastReview": 1792074916102
+    },
+    "custom-mv8ezudt-r21601": {
+      "difficulty": 8,
+      "stability": 0.4,
+      "due": 1792075517265,
+      "reps": 1,
+      "lastReview": 1792074917265
+    },
+    "custom-mv8f3q2i-0yc0sp": {
+      "difficulty": 8,
+      "stability": 0.4,
+      "due": 1792075518437,
+      "reps": 1,
+      "lastReview": 1792074918437
+    },
+    "custom-mv8f4ibq-6g4fu0": {
+      "difficulty": 8,
+      "stability": 0.4,
+      "due": 1792075519621,
+      "reps": 1,
+      "lastReview": 1792074919621
+    },
+    "custom-mv8f8a1g-7kbs94": {
+      "difficulty": 8,
+      "stability": 0.4,
+      "due": 1792075520728,
+      "reps": 1,
+      "lastReview": 1792074920728
     }
   },
   "customCards": {
@@ -217,6 +266,10 @@
     "custom-mv8eevtj-oqksxj": {
       "front": "What properties are required to make $X_n$ martingale?",
       "back": "$\\forall n \\\\$a) $X_n$ is $\\mathcal{F}_n$-measurable $\\\\$\nb) $X_n$ is integrable $\\iff \\mathbb{E}(|X_n|) < \\infty \\\\$\nc) $\\forall A \\in \\mathcal{F}_n, \\mathbb{E}(X_{n+1}1_A = \\mathbb{E}(X_n 1_A))\\\\$\nc ii) Equivalent to $\\mathbb{E}(X_{n+1} |\\mathcal{F}_n  ) = X_n$"
+    },
+    "custom-mv8ez1ep-owcwu7": {
+      "front": "When is $X_n$ super-martingale?",
+      "back": "Has the other martingale properties and\n$$\\mathbb{E}(X_{n+1}1_A) \\le \\mathbb{E}(X_n 1_A)$$"
     }
   },
   "setEdits": {
