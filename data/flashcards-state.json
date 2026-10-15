@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792076759493,
+  "updatedAt": 1792076897715,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 8.751199999999999,
@@ -285,6 +285,9 @@
     }
   },
   "deletedIds": [],
-  "deletedSetIds": [],
+  "deletedSetIds": [
+    "set1",
+    "set2"
+  ],
   "retention": 0.9
 }
