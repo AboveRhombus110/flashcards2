@@ -290,14 +290,16 @@ main {
   width: 100%;
 }
 
-/* Forces KaTeX block equations to center properly */
+/* Force override KaTeX block alignment so it centers properly */
 .card-face-text .katex-display {
-  display: flex;
-  justify-content: center;
-  overflow-x: auto;
-  overflow-y: hidden;
-  max-width: 100%;
-  margin: 0.5rem auto;
+  display: block !important;
+  text-align: center !important;
+  margin: 0.75rem auto !important;
+}
+
+.card-face-text .katex-display > .katex {
+  display: inline-block !important;
+  text-align: center !important;
 }
 
 /* ---------- Rating buttons ---------- */
