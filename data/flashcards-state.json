@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792055956902,
+  "updatedAt": 1792056778714,
   "schedule": {},
   "customCards": {
     "customset-mv7yibh6-dl43np": [
@@ -156,6 +156,11 @@
         "id": "custom-mv9bui06-2mjkbw",
         "front": "What is a commutator?",
         "back": "For 2 observables, $\\hat A$ and $\\hat B$, \n$$[\\hat A, \\hat B] = \\hat A \\hat B - \\hat B \\hat A$$"
+      },
+      {
+        "id": "custom-mv9cc445-hzpscg",
+        "front": "What is the uncertainty principle?",
+        "back": "$[\\hat x, \\hat p] = i \\hbar$ so there is always an uncertainty when measuring position and momentum simultaneously"
       }
     ]
   },
