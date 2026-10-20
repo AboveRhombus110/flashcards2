@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792509871312,
+  "updatedAt": 1792510057308,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -236,6 +236,14 @@
         "id": "custom-mvgu3gls-c1oh04",
         "front": "Let $G$ be a $\\sigma$-algebra and $X$ an integrable random variable. If $Z$ is bounded $G$-measurable random variable, then $\\mathbb{E}(ZX|G) = \\; ?$",
         "back": "$\\mathbb{E}(ZX|G) = Z \\mathbb{E}(X|G)$ almost surely",
+        "tags": [
+          "conditional expectation"
+        ]
+      },
+      {
+        "id": "custom-mvgu7g4c-380gg0",
+        "front": "Let $X_1,X_2$ be random variables with $X_1 \\; G$-measurable and $X_2$ independent of $G$. Suppose $F$ is a bounded measurable function on $\\mathbb{R}^2$. Then, ...",
+        "back": "$\\mathbb{E}(F(X_1,X_2)|G) = f(X_1)$ almost surely where $f(x) = \\mathbb{E}(F(x, X_2))$",
         "tags": [
           "conditional expectation"
         ]
