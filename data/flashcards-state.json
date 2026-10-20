@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792510057308,
+  "updatedAt": 1792510865396,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -246,6 +246,15 @@
         "back": "$\\mathbb{E}(F(X_1,X_2)|G) = f(X_1)$ almost surely where $f(x) = \\mathbb{E}(F(x, X_2))$",
         "tags": [
           "conditional expectation"
+        ]
+      },
+      {
+        "id": "custom-mvguorn7-5rn3l7",
+        "front": "What is a stopped process?",
+        "back": "If $M$ is a martingale process and $T$ is a stopping time, the stopped process is $M^T_n := M_{min(T,n)}$",
+        "tags": [
+          "martingales",
+          "stopping"
         ]
       }
     ],
