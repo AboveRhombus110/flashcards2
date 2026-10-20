@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792515836298,
+  "updatedAt": 1792515952180,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -529,6 +529,14 @@
         "id": "custom-mvgxnb7t-5l0dz7",
         "front": "For Hermitian $Q, \\\\$\nAll e-values are ...\n$\\\\$ Eigenstates with ... eigenvalues are ...\n$\\\\$ Any state is ...",
         "back": "All e-values are real\n$\\\\$ Eigenstates with distinct eigenvalues are orthogonal.\n$\\\\$ Any state is a linear combination of eigenstates",
+        "tags": [
+          "dirac"
+        ]
+      },
+      {
+        "id": "custom-mvgxpsms-nat5a7",
+        "front": "What is an eigenspace for an eigenvalue, $\\lambda$?",
+        "back": "$V_{\\lambda} = \\{ | \\psi \\rangle: Q| \\psi \\rangle = \\lambda |\\psi \\rangle \\}$",
         "tags": [
           "dirac"
         ]
