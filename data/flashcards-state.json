@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792077170322,
+  "updatedAt": 1792507565469,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -326,6 +326,13 @@
     "custom-mv8ez1ep-owcwu7": {
       "front": "When is $X_n$ super-martingale?",
       "back": "Has the other martingale properties and\n$$\\mathbb{E}(X_{n+1}1_A) \\le \\mathbb{E}(X_n 1_A)$$"
+    },
+    "custom-mv7yp9rt-j5b25r": {
+      "front": "What is a random process?",
+      "back": "A family of random variables $(X_n)_{n \\ge 0})$ where $X: \\Omega \\to \\mathbb{R}$",
+      "tags": [
+        "martingales"
+      ]
     }
   },
   "setEdits": {
