@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792511937678,
+  "updatedAt": 1792512005991,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -585,6 +585,13 @@
       "back": "$F(x) = \\int^\\epsilon_0 f(t)e^{-xt}dt + \\int_\\epsilon^T f(t)e^{-xt}dt = F_1 + F_2$ for some small $\\epsilon > 0$\nFirst, we show $F_2$ is small.\nIn (i), $$|F_2| \\le \\int^T_\\epsilon Ke^{-bt}e^{-xt}dt = \\frac {K}{x-b}e^{(b-x)\\epsilon} = O(\\frac{e^{-\\epsilon x}}{x}) \\text { as } x \\to \\infty$$\nThis only converges for $x >b$ but we are taking $x \\to \\infty$. In (ii),\n$$|F_2| \\le \\int^T_\\epsilon |f(t)|e^{-xt}dt \\le e^{-\\epsilon t}\\int_0^T |f(t)|dt = O(e^{-\\epsilon x}) \\text{ as } x \\to \\infty$$\nSince $\\epsilon$ is fixed, $F_2$ is small beyond all order in $x^{-k}$",
       "tags": [
         "unfinished"
+      ]
+    },
+    "custom-mvgv5xy4-9fcvuh": {
+      "front": "What does it mean for a process, $(H_n)_{n \\ge 1}$ to be pre-visible?",
+      "back": "$H_n$ is $\\mathcal{F}_{n-1}$- measurable. Usually refers to amounts of an asset chosen between time period.",
+      "tags": [
+        "martingales"
       ]
     }
   },
