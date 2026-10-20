@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792515335043,
+  "updatedAt": 1792515417060,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -473,6 +473,22 @@
         "id": "custom-mvgxckg2-zmwbk0",
         "front": "What is an inner product?",
         "back": "A map $V \\times V \\to \\mathbb{C}$ taking $|\\phi \\rangle, |\\psi\\rangle \\to \\langle\\phi| \\psi \\rangle = (|\\phi \\rangle)^*(| \\psi \\rangle)$",
+        "tags": [
+          "dirac"
+        ]
+      },
+      {
+        "id": "custom-mvgxdizq-zswf1o",
+        "front": "What is the norm in an inner product space?",
+        "back": "$||\\psi||^2 = \\langle \\psi | \\psi \\rangle \\ge 0$",
+        "tags": [
+          "dirac"
+        ]
+      },
+      {
+        "id": "custom-mvgxebqc-gy9zn1",
+        "front": "What makes a space complete?",
+        "back": "If it has a basis",
         "tags": [
           "dirac"
         ]
