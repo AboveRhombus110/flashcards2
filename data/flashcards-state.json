@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792512005991,
+  "updatedAt": 1792512486926,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -278,6 +278,14 @@
         "id": "custom-mvgvbr0u-c63gme",
         "front": "Let $M$ be martingale and $(H_n)$ be a pre-visible bounded process then the transform $H \\cdot M$ of $M$ by $H$ is ...",
         "back": "$(H \\cdot M)_n = \\sum_{k=1}^nH_k (M_k - M_{k-1})$ for $n \\ge 1$ and $(H \\cdot M)_0 = 0 \\\\$\nIt is martingale and $\\mathbb{E}((H\\cdot M)_n) = \\mathbb{E}((H \\cdot M)_0) = 0$",
+        "tags": [
+          "martingales"
+        ]
+      },
+      {
+        "id": "custom-mvgvnitq-2e8xbm",
+        "front": "Prove transform $H \\cdot M$ for $M$ martingale and $(H_n)$ bounded pre-visible process is martingale and $\\mathbb{E}((H \\cdot M)_n) = \\mathbb{E}((H \\cdot M)_0)  = 0 $",
+        "back": "$(H \\cdot M)_{n+1} - (H \\cdot M)_n = H_{n+1} (M_{n+1} - M_n)$ and $\\mathbb{E}(H_{n+1}(M_{n+1} - M_n)| \\mathcal{F}_n) = H_{n+1} \\mathbb{E}(M_{n+1} - M_n | \\mathcal{F}_n) = 0 $ since $H_{n+1}$ is $\\mathcal{F}_n$-measurable and bounded so we can \"take out what is known\", and $M$ is martingale.",
         "tags": [
           "martingales"
         ]
