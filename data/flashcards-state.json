@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792510865396,
+  "updatedAt": 1792511561350,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -252,6 +252,15 @@
         "id": "custom-mvguorn7-5rn3l7",
         "front": "What is a stopped process?",
         "back": "If $M$ is a martingale process and $T$ is a stopping time, the stopped process is $M^T_n := M_{min(T,n)}$",
+        "tags": [
+          "martingales",
+          "stopping"
+        ]
+      },
+      {
+        "id": "custom-mvgv3ona-8qkk98",
+        "front": "Prove a stopped process is Martingale",
+        "back": "$M_n^T = M_0 + \\sum_{k=1}^n (M_k - M_{k-1})1_{k \\le T} \\\\$\nSince $\\{ k \\le T\\} \\in \\mathcal{F}_n, M_n^T$ is $\\mathcal{F}_n$-measurable and integrable. Now checking the martingale property and using above definition,\nfor $A \\in \\mathcal{F}_n \\; \\; \\forall n,$ \n$$\\mathbb{E}((M_{n+1}^T - M^T_n) 1_A) = \\mathbb{E}([(M_{n+1}-M_n)1_{n+1 \\le T}] 1_A) = 0$$ \nsince $\\{ n + 1 \\le T\\} = \\{T \\le n\\}^C \\subseteq \\mathcal{F}_n$, $1_{n+1 \\le T}1_A$ is $\\mathcal{F}_n$-measurable and $M$ is martingale.",
         "tags": [
           "martingales",
           "stopping"
