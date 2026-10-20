@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792515638021,
+  "updatedAt": 1792515722836,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -505,6 +505,22 @@
         "id": "custom-mvgxj285-ayopqt",
         "front": "What is the Hermitian Conjugate, $Q^\\dagger$ of an operator?",
         "back": "Defined as $\\langle \\psi | Q^\\dagger = (Q | \\psi\\rangle)^\\dagger$ for any $| \\psi \\rangle$",
+        "tags": [
+          "dirac"
+        ]
+      },
+      {
+        "id": "custom-mvgxjovo-5h74zp",
+        "front": "What does it mean for an operator to be hermitian/self-adjoint?",
+        "back": "$Q = Q^\\dagger$",
+        "tags": [
+          "dirac"
+        ]
+      },
+      {
+        "id": "custom-mvgxkvo3-0c70ix",
+        "front": "What is an observable?",
+        "back": "An operator that is Hermitian - corresponds to physical quantities e.g. position, momentum, energy...",
         "tags": [
           "dirac"
         ]
