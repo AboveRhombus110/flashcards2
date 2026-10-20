@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792516115607,
+  "updatedAt": 1792516275239,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -563,6 +563,22 @@
         "back": "An eigenvalue with degeneracy 1, i.e. $ dim(V_{\\lambda})=1$",
         "tags": [
           "dirac"
+        ]
+      },
+      {
+        "id": "custom-mvgxvwac-62io1o",
+        "front": "What is the time evaluation operator?",
+        "back": "$$e^{\\frac{-iHt}{\\hbar}}$$",
+        "tags": [
+          "operator"
+        ]
+      },
+      {
+        "id": "custom-mvgxwpwm-nm8raw",
+        "front": "What is the translation operator?",
+        "back": "$$e^{\\frac{-ia\\hat p}{\\hbar}}$$",
+        "tags": [
+          "operator"
         ]
       }
     ]
