@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792507565469,
+  "updatedAt": 1792507626570,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -321,17 +321,72 @@
   "edits": {
     "custom-mv8eevtj-oqksxj": {
       "front": "What properties are required to make $X_n$ martingale?",
-      "back": "$\\forall n \\\\$a) $X_n$ is $\\mathcal{F}_n$-measurable $\\\\$\nb) $X_n$ is integrable $\\iff \\mathbb{E}(|X_n|) < \\infty \\\\$\nc) $\\forall A \\in \\mathcal{F}_n, \\mathbb{E}(X_{n+1}1_A = \\mathbb{E}(X_n 1_A))\\\\$\nc ii) Equivalent to $\\mathbb{E}(X_{n+1} |\\mathcal{F}_n  ) = X_n$"
+      "back": "$\\forall n \\\\$a) $X_n$ is $\\mathcal{F}_n$-measurable $\\\\$\nb) $X_n$ is integrable $\\iff \\mathbb{E}(|X_n|) < \\infty \\\\$\nc) $\\forall A \\in \\mathcal{F}_n, \\mathbb{E}(X_{n+1}1_A = \\mathbb{E}(X_n 1_A))\\\\$\nc ii) Equivalent to $\\mathbb{E}(X_{n+1} |\\mathcal{F}_n  ) = X_n$",
+      "tags": [
+        "martingales"
+      ]
     },
     "custom-mv8ez1ep-owcwu7": {
       "front": "When is $X_n$ super-martingale?",
-      "back": "Has the other martingale properties and\n$$\\mathbb{E}(X_{n+1}1_A) \\le \\mathbb{E}(X_n 1_A)$$"
+      "back": "Has the other martingale properties and\n$$\\mathbb{E}(X_{n+1}1_A) \\le \\mathbb{E}(X_n 1_A)$$",
+      "tags": [
+        "martingales"
+      ]
     },
     "custom-mv7yp9rt-j5b25r": {
       "front": "What is a random process?",
       "back": "A family of random variables $(X_n)_{n \\ge 0})$ where $X: \\Omega \\to \\mathbb{R}$",
       "tags": [
         "martingales"
+      ]
+    },
+    "custom-mv7ynmtg-kbn6kw": {
+      "front": "What is a filtration given a probability space $(\\Omega, \\mathcal{F}, \\mathbb{P})$?",
+      "back": "A family of $\\sigma$-algebras $(\\mathcal{F}_n)_{n \\ge 0}$ such that $\\mathcal{F_n} \\subseteq \\mathcal{F_{n+1}} \\subseteq \\mathcal{F} \\quad \\forall n$",
+      "tags": [
+        "martingales"
+      ]
+    },
+    "custom-mv7ystdh-e1umq1": {
+      "front": "What does it mean for a random process $(X_n)_{n \\ge 0}$ to be adapted?",
+      "back": "$\\forall n, X_n \\text{ is } F_n \\text{-measurable}$. If no filtration is specified, the natural filtration is assumed.",
+      "tags": [
+        "martingales"
+      ]
+    },
+    "custom-mv7zwsc0-qlvdgy": {
+      "front": "What does it mean for a random variable $X_n$ to be $\\mathcal{F}$-measurable?",
+      "back": "If for every $A \\in \\mathbb{B(R)}$, $\\{\\omega \\in \\Omega :  X_n(\\omega) \\in A\\} \\in \\mathbb{\\mathcal{F}}$\n\nwhere the Borel Set is the collection of all subsets of $\\Omega$ including all countable unions/intersections and all complements.",
+      "tags": [
+        "martingales"
+      ]
+    },
+    "custom-mv8e8stu-tjwykd": {
+      "front": "What is the natural filtration of $(X_n)_{n\\ge 0}$?",
+      "back": "The natural filtration is the smallest filtration making $(X_n)$ adapted. It is constructed as $$\nF_n^X = \\sigma (X_k : 0 \\le k \\le n) = \\sigma (X_0, X_1,\\dots , X_n)$$",
+      "tags": [
+        "martingales"
+      ]
+    },
+    "custom-mv8ezudt-r21601": {
+      "front": "When is $X_n$ sub-martingale?",
+      "back": "Has the other martingale properties and\n$$\\mathbb{E}(X_{n+1}1_A) \\ge \\mathbb{E}(X_n 1_A)$$",
+      "tags": [
+        "martingales"
+      ]
+    },
+    "custom-mv8f4ibq-6g4fu0": {
+      "front": "Any martingale is also martingale in ...",
+      "back": "Any martingale is also martingale in its natural filtration",
+      "tags": [
+        "martingales"
+      ]
+    },
+    "custom-mv8fe4m1-q70gns": {
+      "front": "If $G \\subseteq \\mathcal{F} $ is a $\\sigma$- algebra and $X$ is an integrable random variable. Then $\\exist Y$ an integrable random variable with properties...",
+      "back": "a) $Y$ is $G$-measurable $\\\\$\nb) $\\mathbb{E}(Y 1_A) = \\mathbb{E}(X 1_A) \\quad \\forall A \\in G \\\\$\nso $Y = \\mathbb{E}(X | G)$ is the conditional expectation of $X$ given $G$",
+      "tags": [
+        "conditional expectation"
       ]
     }
   },
