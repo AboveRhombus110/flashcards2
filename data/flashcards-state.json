@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792508685967,
+  "updatedAt": 1792509347203,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -299,6 +299,14 @@
         "tags": [
           "approx. integral"
         ]
+      },
+      {
+        "id": "custom-mvgtf8vw-lk3u4g",
+        "front": "UNFINISHED\nProve Watson's Lemma",
+        "back": "h",
+        "tags": [
+          "unfinished"
+        ]
       }
     ],
     "customset-muxc06t6-io71xg": [
@@ -520,6 +528,13 @@
       "back": "If it has no power series (smaller than any power) for example, $e^{-x}$ as $x \\to \\infty$ since  $e^{-x} << x^{-k} \\; \\forall k$",
       "tags": [
         "asy expansion"
+      ]
+    },
+    "custom-mvgtf8vw-lk3u4g": {
+      "front": "UNFINISHED\nProve Watson's Lemma: $\\\\$\nFor $F(x) = \\int_0^T f(t) e^{-xt} dt$ as $x \\to \\infty$ and $0 < T \\le \\infty$, suppose $f(t) \\sim t^{\\alpha} \\sum_{n=0}^\\infty a_n t^{\\beta n}$  as $t \\to 0^+$, where $\\alpha > -1$ and $\\beta > 0. \\\\$ Suppose also either:\n$\\\\ \\text{i)} \\exists K,b > 0, |f(t)| < Ke^{bt} \\;\\forall t>0 \\\\ \\text{ii)} \\int_0^T |f(t)| dt  < \\infty \\\\$\nThen, \n$$F(x) \\sim \\sum_{n=0}^\\infty a_n \\frac{\\Gamma(\\alpha + \\beta n + 1)}{x^{\\alpha + \\beta n + 1}}  \\quad \\text{as } x \\to \\infty$$",
+      "back": "$F(x) = \\int^\\epsilon_0 f(t)e^{-xt}dt + \\int_\\epsilon^T f(t)e^{-xt}dt = F_1 + F_2$ for some small $\\epsilon > 0$\nFirst, we show $F_2$ is small.\nIn (i), $$|F_2| \\le \\int^T_\\epsilon Ke^{-bt}e^{-xt}dt = \\frac {K}{x-b}e^{(b-x)\\epsilon} = O(\\frac{e^{-\\epsilon x}}{x}) \\text { as } x \\to \\infty$$\nThis only converges for $x >b$ but we are taking $x \\to \\infty$. In (ii),\n$$|F_2| \\le \\int^T_\\epsilon |f(t)|e^{-xt}dt \\le e^{-\\epsilon t}\\int_0^T |f(t)|dt = O(e^{-\\epsilon x}) \\text{ as } x \\to \\infty$$\nSince $\\epsilon$ is fixed, $F_2$ is small beyond all order in $x^{-k}$",
+      "tags": [
+        "unfinished"
       ]
     }
   },
