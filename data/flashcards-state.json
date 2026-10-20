@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792511666716,
+  "updatedAt": 1792511937678,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -270,6 +270,14 @@
         "id": "custom-mvgv5xy4-9fcvuh",
         "front": "What does it mean for a process, $(H_n)_{n \\ge 1}$ to be pre-visible?",
         "back": "$H_n$ is $\\mathcal{F}_{n-1}$- measurable.",
+        "tags": [
+          "martingales"
+        ]
+      },
+      {
+        "id": "custom-mvgvbr0u-c63gme",
+        "front": "Let $M$ be martingale and $(H_n)$ be a pre-visible bounded process then the transform $H \\cdot M$ of $M$ by $H$ is ...",
+        "back": "$(H \\cdot M)_n = \\sum_{k=1}^nH_k (M_k - M_{k-1})$ for $n \\ge 1$ and $(H \\cdot M)_0 = 0 \\\\$\nIt is martingale and $\\mathbb{E}((H\\cdot M)_n) = \\mathbb{E}((H \\cdot M)_0) = 0$",
         "tags": [
           "martingales"
         ]
