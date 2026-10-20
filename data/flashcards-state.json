@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792515722836,
+  "updatedAt": 1792515836298,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -521,6 +521,14 @@
         "id": "custom-mvgxkvo3-0c70ix",
         "front": "What is an observable?",
         "back": "An operator that is Hermitian - corresponds to physical quantities e.g. position, momentum, energy...",
+        "tags": [
+          "dirac"
+        ]
+      },
+      {
+        "id": "custom-mvgxnb7t-5l0dz7",
+        "front": "For Hermitian $Q, \\\\$\nAll e-values are ...\n$\\\\$ Eigenstates with ... eigenvalues are ...\n$\\\\$ Any state is ...",
+        "back": "All e-values are real\n$\\\\$ Eigenstates with distinct eigenvalues are orthogonal.\n$\\\\$ Any state is a linear combination of eigenstates",
         "tags": [
           "dirac"
         ]
