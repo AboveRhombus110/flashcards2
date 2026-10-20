@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792507829865,
+  "updatedAt": 1792508122723,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -283,6 +283,14 @@
         "id": "custom-mv8icjhc-ehc6m3",
         "front": "When is a term \"small beyond all orders\" in some limit?",
         "back": "If it has no power series (smaller than any power) for example, $e^{-x}$ as $x \\to \\infty$ since  $e^{-x} << x^{-k} \\; \\forall k$"
+      },
+      {
+        "id": "custom-mvgt1zdu-vtwws9",
+        "front": "What is the Stokes Phenomenon?",
+        "back": "For Complex expansions, we will have different asymptotic series in different sectors. The Stokes lines are boundaries where the approximations will break down as they approach.",
+        "tags": [
+          "asy expansion"
+        ]
       }
     ],
     "customset-muxc06t6-io71xg": [
