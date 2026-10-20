@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792511561350,
+  "updatedAt": 1792511666716,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -264,6 +264,14 @@
         "tags": [
           "martingales",
           "stopping"
+        ]
+      },
+      {
+        "id": "custom-mvgv5xy4-9fcvuh",
+        "front": "What does it mean for a process, $(H_n)_{n \\ge 1}$ to be pre-visible?",
+        "back": "$H_n$ is $\\mathcal{F}_{n-1}$- measurable.",
+        "tags": [
+          "martingales"
         ]
       }
     ],
