@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792513558808,
+  "updatedAt": 1792514479776,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -334,6 +334,14 @@
         "id": "custom-mvgwahw8-ppe0lf",
         "front": "What is the Value function?",
         "back": "$(V_n)_{0 \\le n \\le T}$ is given by $V_n = \\bar \\theta_n \\bar X_n = \\sum_{i=0}^d \\theta^i_n X_n^i$ and $V_0 = \\bar \\theta_1 \\bar X_0$",
+        "tags": [
+          "price model"
+        ]
+      },
+      {
+        "id": "custom-mvgwu8in-f5ixev",
+        "front": "If $V_0 \\in \\mathbb{R}$ and $(\\theta_n)_{1 \\le n \\le T}$ is a pre-visible process in $\\mathbb{R}^d$. Then $\\exists$ ... such that ... with initial value $V_0$",
+        "back": "Then $\\exists$ a pre-visible process $(\\theta_n^0)_{1 \\le n \\le T}$  such that $(\\bar \\theta_n)_{1 \\le n \\le T}$ is a self-financing portfolio with initial value $V_0$",
         "tags": [
           "price model"
         ]
