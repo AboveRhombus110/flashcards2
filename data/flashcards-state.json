@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792516275239,
+  "updatedAt": 1792516431497,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -577,6 +577,14 @@
         "id": "custom-mvgxwpwm-nm8raw",
         "front": "What is the translation operator?",
         "back": "$$e^{\\frac{-ia\\hat p}{\\hbar}}$$",
+        "tags": [
+          "operator"
+        ]
+      },
+      {
+        "id": "custom-mvgy02h4-0l2qpd",
+        "front": "What is the projection operator?",
+        "back": "$P_{\\lambda}: V \\to V_{\\lambda}$ where $P_\\lambda | n \\rangle = \\begin{cases} \n      |n \\rangle & \\text{if } q_n = \\lambda \\\\ \n      0 & \\text{else}\n\\end{cases}$",
         "tags": [
           "operator"
         ]
