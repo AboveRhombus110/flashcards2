@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792515487994,
+  "updatedAt": 1792515638021,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -497,6 +497,14 @@
         "id": "custom-mvgxfugq-lsj3hh",
         "front": "What is an operator?",
         "back": "A linear map on states $| \\psi \\rangle \\to Q| \\psi \\rangle: V \\to V$. It has linearity.",
+        "tags": [
+          "dirac"
+        ]
+      },
+      {
+        "id": "custom-mvgxj285-ayopqt",
+        "front": "What is the Hermitian Conjugate, $Q^\\dagger$ of an operator?",
+        "back": "Defined as $\\langle \\psi | Q^\\dagger = (Q | \\psi\\rangle)^\\dagger$ for any $| \\psi \\rangle$",
         "tags": [
           "dirac"
         ]
