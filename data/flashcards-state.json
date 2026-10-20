@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792515952180,
+  "updatedAt": 1792516058399,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -537,6 +537,22 @@
         "id": "custom-mvgxpsms-nat5a7",
         "front": "What is an eigenspace for an eigenvalue, $\\lambda$?",
         "back": "$V_{\\lambda} = \\{ | \\psi \\rangle: Q| \\psi \\rangle = \\lambda |\\psi \\rangle \\}$",
+        "tags": [
+          "dirac"
+        ]
+      },
+      {
+        "id": "custom-mvgxqzsv-qei4c9",
+        "front": "What is the (discrete) completeness relation?",
+        "back": "For an eigenbasis, $\\sum_n  | n \\rangle \\langle n| = 1$",
+        "tags": [
+          "dirac"
+        ]
+      },
+      {
+        "id": "custom-mvgxs2la-97mglf",
+        "front": "What is the degeneracy of an eigenvalue?",
+        "back": "The dimension of $V_{\\lambda}$",
         "tags": [
           "dirac"
         ]
