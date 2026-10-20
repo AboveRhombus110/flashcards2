@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792514989350,
+  "updatedAt": 1792515074939,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -358,6 +358,24 @@
         "id": "custom-mvgx55ph-wyik2p",
         "front": "What is a (European) contingent claim, C, with maturity T?",
         "back": "A non-negative $\\mathcal{F}_T$-measurable random variable where you are paid out C at fixed time T.",
+        "tags": [
+          "price model",
+          "options"
+        ]
+      },
+      {
+        "id": "custom-mvgx681t-uuhweh",
+        "front": "What is a call option?",
+        "back": "$(S_T - K)^+$ gives you a right to buy an asset at time T for price $K$",
+        "tags": [
+          "price model",
+          "options"
+        ]
+      },
+      {
+        "id": "custom-mvgx6zqy-4kbqry",
+        "front": "What is a put option?",
+        "back": "$(S_T - K)^-$ gives a right to sell an asset at time T for price $K$",
         "tags": [
           "price model",
           "options"
