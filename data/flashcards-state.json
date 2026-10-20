@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792516929224,
+  "updatedAt": 1792516977747,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -612,6 +612,12 @@
         "tags": [
           "operator"
         ]
+      },
+      {
+        "id": "custom-mvgybryr-mbb556",
+        "front": "What is Heisenburg's Uncertainty Principle?",
+        "back": "$\\Delta x \\cdot \\Delta p \\ge \\frac{\\hbar}{2}$",
+        "tags": []
       }
     ]
   },
