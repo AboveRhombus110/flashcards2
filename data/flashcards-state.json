@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792514905475,
+  "updatedAt": 1792514989350,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -352,6 +352,15 @@
         "back": "We need to show:\n$\\\\ V_0 = \\bar \\theta_1 \\bar X_0 = \\theta_1^0 \\cdot 1 + \\theta_1 X_0 \\\\ \\bar \\theta_n \\bar S_n = \\bar \\theta_{n+1} \\bar S_n \\equiv \\theta_n^0 S_n^0 + \\theta_n S_n = \\theta_{n+1}^0 S_n^0 + \\theta_{n+1}S_n$\nsince everything else is $\\mathcal{F}_n$-measurable we can solve uniquely for $\\theta_{n+1}^0$ and construct pre-visible process $(\\theta^0_n)_{1 \\le n\\le T}$",
         "tags": [
           "price model"
+        ]
+      },
+      {
+        "id": "custom-mvgx55ph-wyik2p",
+        "front": "What is a (European) contingent claim, C, with maturity T?",
+        "back": "A non-negative $\\mathcal{F}_T$-measurable random variable where you are paid out C at fixed time T.",
+        "tags": [
+          "price model",
+          "options"
         ]
       }
     ],
