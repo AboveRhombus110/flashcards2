@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792508122723,
+  "updatedAt": 1792508685967,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -290,6 +290,14 @@
         "back": "For Complex expansions, we will have different asymptotic series in different sectors. The Stokes lines are boundaries where the approximations will break down as they approach.",
         "tags": [
           "asy expansion"
+        ]
+      },
+      {
+        "id": "custom-mvgte1zi-kib7ve",
+        "front": "What is Watson's Lemma?",
+        "back": "For $F(x) = \\int_0^T f(t) e^{-xt} dt$ as $x \\to \\infty$ and $0 < T \\le \\infty$, suppose $f(t) \\sim t^{\\alpha} \\sum_{n=0}^\\infty a_n t^{\\beta n}$  as $t \\to 0^+$, where $\\alpha > -1$ and $\\beta > 0. \\\\$ Suppose also either:\n$\\\\ \\text{i)} \\exists K,b > 0, |f(t)| < Ke^{bt} \\;\\forall t>0 \\\\ \\text{ii)} \\int_0^T |f(t)| dt  < \\infty \\\\$\nThen, \n$$F(x) \\sim \\sum_{n=0}^\\infty a_n \\frac{\\Gamma(\\alpha + \\beta n + 1)}{x^{\\alpha + \\beta n + 1}}  \\quad \\text{as } x \\to \\infty$$",
+        "tags": [
+          "approx. integral"
         ]
       }
     ],
