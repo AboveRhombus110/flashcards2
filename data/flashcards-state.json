@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792507809199,
+  "updatedAt": 1792507829865,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -462,6 +462,46 @@
     "custom-mv8hq0ss-0wlqus": {
       "front": "If 2 functions are asymptotically equal, what is the subdominant term?",
       "back": "In the approximation, $f = g + (f-g), \\; (f-g)$ is the subdominant term",
+      "tags": [
+        "asy expansion"
+      ]
+    },
+    "custom-mv8hsgyb-780ta3": {
+      "front": "What does it mean to be little \"o\"?",
+      "back": "$f(x) = o(g(x))$ if \n$$\\lim_{x \\to x_0} \\frac{f(x)}{g(x)} = 0 $$\nor $f(x) << g(x)$ as $x \\to x_0$",
+      "tags": []
+    },
+    "custom-mv8hxjzr-y6htif": {
+      "front": "What is an asymptotic sequence?",
+      "back": "$\\{ \\phi_i (x)\\}_{i=1}^n$ as $x \\to x_0$ if \n$$\\phi_{i+1} << \\phi_i \\quad\\forall i$$\nFor example, $\\phi_i = (x-a)^i$ as $x \\to a$",
+      "tags": [
+        "asy expansion"
+      ]
+    },
+    "custom-mv8i20z7-06iphq": {
+      "front": "What is an N-term asymptotic approximation?",
+      "back": "Given an asymptotic sequence $\\{ \\phi_k(x)\\}$ as $x \\to x_0$, \n$$f(x) \\sim\\sum_0^N a_k \\phi_k (x)$$\nif $$ f(x) = \\sum_0^N a_k \\phi_k (x) + o(\\phi_N(x)) $$",
+      "tags": [
+        "asy expansion"
+      ]
+    },
+    "custom-mv8i3q3s-qqjcgm": {
+      "front": "What is an asymptotic series/expansion?",
+      "back": "If an N-term asymptotic approximation holds for all n, then we say $$f(x) \\sim \\sum_0^{\\infty} a_k \\phi_k (x) \\text{ as }  x \\to x_0 $$",
+      "tags": [
+        "asy expansion"
+      ]
+    },
+    "custom-mv8ia3q6-fahipm": {
+      "front": "How would you show the uniqueness of coefficients for an asymptotic series?",
+      "back": "We have \n$$\\lim_{x \\to x_0} \\frac{f(x) - \\sum_0^N a_k \\phi_k}{\\phi_N} = 0$$\nso let $N = 0$ to find \n$$\\lim_{x \\to x_0} \\frac{f(x)}{\\phi_o} - a_0 = 0$$\nwe can induct across N to find generally\n$$a_n = \\lim_{x \\to x_0} \\frac{f(x) - \\sum^{n-1}a_k \\phi_k(x)}{\\phi_n(x)}$$",
+      "tags": [
+        "asy expansion"
+      ]
+    },
+    "custom-mv8icjhc-ehc6m3": {
+      "front": "When is a term \"small beyond all orders\" in some limit?",
+      "back": "If it has no power series (smaller than any power) for example, $e^{-x}$ as $x \\to \\infty$ since  $e^{-x} << x^{-k} \\; \\forall k$",
       "tags": [
         "asy expansion"
       ]
