@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792516657522,
+  "updatedAt": 1792516747947,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -593,6 +593,14 @@
         "id": "custom-mvgy4wvl-xtskpd",
         "front": "What is the expectation (mean) of Q in state $| \\psi \\rangle ?$",
         "back": "$\\langle Q \\rangle_\\psi= \\langle \\psi |Q| \\psi \\rangle = \\sum_{\\lambda} \\lambda p(\\lambda) = \\sum_n q_n |a_n|^2$",
+        "tags": [
+          "operator"
+        ]
+      },
+      {
+        "id": "custom-mvgy6une-feukwa",
+        "front": "What is the probability of a measurement of Q in normalised state $| \\psi \\rangle?$",
+        "back": "$p(\\lambda) = ||P_\\lambda | \\psi \\rangle||^2 = \\sum_{n: q_n = \\lambda} |a_n|^2$",
         "tags": [
           "operator"
         ]
