@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792516431497,
+  "updatedAt": 1792516657522,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -585,6 +585,14 @@
         "id": "custom-mvgy02h4-0l2qpd",
         "front": "What is the projection operator?",
         "back": "$P_{\\lambda}: V \\to V_{\\lambda}$ where $P_\\lambda | n \\rangle = \\begin{cases} \n      |n \\rangle & \\text{if } q_n = \\lambda \\\\ \n      0 & \\text{else}\n\\end{cases}$",
+        "tags": [
+          "operator"
+        ]
+      },
+      {
+        "id": "custom-mvgy4wvl-xtskpd",
+        "front": "What is the expectation (mean) of Q in state $| \\psi \\rangle ?$",
+        "back": "$\\langle Q \\rangle_\\psi= \\langle \\psi |Q| \\psi \\rangle = \\sum_{\\lambda} \\lambda p(\\lambda) = \\sum_n q_n |a_n|^2$",
         "tags": [
           "operator"
         ]
