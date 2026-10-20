@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792516747947,
+  "updatedAt": 1792516929224,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -601,6 +601,14 @@
         "id": "custom-mvgy6une-feukwa",
         "front": "What is the probability of a measurement of Q in normalised state $| \\psi \\rangle?$",
         "back": "$p(\\lambda) = ||P_\\lambda | \\psi \\rangle||^2 = \\sum_{n: q_n = \\lambda} |a_n|^2$",
+        "tags": [
+          "operator"
+        ]
+      },
+      {
+        "id": "custom-mvgyaqiv-dtvtvs",
+        "front": "What is the uncertainty (variance) of Q in state $| \\psi \\rangle$?",
+        "back": "$(\\Delta Q)^2_\\psi =  \\lang (Q - \\lang Q \\rang_\\psi)^2 \\rang = \\lang Q^2 \\rang_\\psi - (\\lang Q \\rang_\\psi)^2 $",
         "tags": [
           "operator"
         ]
