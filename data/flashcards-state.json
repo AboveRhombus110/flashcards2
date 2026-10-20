@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792515417060,
+  "updatedAt": 1792515487994,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -489,6 +489,14 @@
         "id": "custom-mvgxebqc-gy9zn1",
         "front": "What makes a space complete?",
         "back": "If it has a basis",
+        "tags": [
+          "dirac"
+        ]
+      },
+      {
+        "id": "custom-mvgxfugq-lsj3hh",
+        "front": "What is an operator?",
+        "back": "A linear map on states $| \\psi \\rangle \\to Q| \\psi \\rangle: V \\to V$. It has linearity.",
         "tags": [
           "dirac"
         ]
