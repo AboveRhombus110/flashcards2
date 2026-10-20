@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792512486926,
+  "updatedAt": 1792512636514,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -288,6 +288,14 @@
         "back": "$(H \\cdot M)_{n+1} - (H \\cdot M)_n = H_{n+1} (M_{n+1} - M_n)$ and $\\mathbb{E}(H_{n+1}(M_{n+1} - M_n)| \\mathcal{F}_n) = H_{n+1} \\mathbb{E}(M_{n+1} - M_n | \\mathcal{F}_n) = 0 $ since $H_{n+1}$ is $\\mathcal{F}_n$-measurable and bounded so we can \"take out what is known\", and $M$ is martingale.",
         "tags": [
           "martingales"
+        ]
+      },
+      {
+        "id": "custom-mvgvqq8x-irhotm",
+        "front": "What does it mean to be numeriare?",
+        "back": "$(S_n^0)_{0 \\le n \\le T}$ is numeraire if $S_n^0 > 0$ for all $n$.",
+        "tags": [
+          "price model"
         ]
       }
     ],
@@ -600,6 +608,13 @@
       "back": "$H_n$ is $\\mathcal{F}_{n-1}$- measurable. Usually refers to amounts of an asset chosen between time period.",
       "tags": [
         "martingales"
+      ]
+    },
+    "custom-mvgu3gls-c1oh04": {
+      "front": "Let $G$ be a $\\sigma$-algebra and $X$ an integrable random variable. If $Z$ is bounded $G$-measurable random variable, then $\\mathbb{E}(ZX|G) = \\; ?$",
+      "back": "$\\mathbb{E}(ZX|G) = Z \\mathbb{E}(X|G)$ almost surely. This is known as \"taking out what is known\".",
+      "tags": [
+        "conditional expectation"
       ]
     }
   },
