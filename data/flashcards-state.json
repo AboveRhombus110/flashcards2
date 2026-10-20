@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792509347203,
+  "updatedAt": 1792509871312,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -231,6 +231,14 @@
         "id": "custom-mv8hk9ca-jla575",
         "front": "What is the tower property? Prove it.",
         "back": "If $H \\subseteq G$ is a $\\sigma$-algebra. Then $\\mathbb{E}(\\mathbb{E}(X|G)|H) = \\mathbb{E}(X|H) \\\\$\nLet $Y = \\mathbb{E}(\\mathbb{E}(X|G)|H)$ almost surely then if $A \\in H \\implies A \\in G$ so \n$$ \\mathbb{E}(Y 1_A) = \\mathbb{E}(\\mathbb{E}(X|G)1_A) = \\mathbb{E}(X 1_A)$$\nSince Y is integrable and $H$-measurable, $Y = \\mathbb{E}(X|H)$ almost surely"
+      },
+      {
+        "id": "custom-mvgu3gls-c1oh04",
+        "front": "Let $G$ be a $\\sigma$-algebra and $X$ an integrable random variable. If $Z$ is bounded $G$-measurable random variable, then $\\mathbb{E}(ZX|G) = \\; ?$",
+        "back": "$\\mathbb{E}(ZX|G) = Z \\mathbb{E}(X|G)$ almost surely",
+        "tags": [
+          "conditional expectation"
+        ]
       }
     ],
     "customset-muy86sgg-5yl8nl": [
