@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792513231672,
+  "updatedAt": 1792513427184,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -318,6 +318,14 @@
         "id": "custom-mvgw3hh4-m5egmt",
         "front": "What is a portfolio in a T-periodic asset price model?",
         "back": "$(\\bar \\theta_n)_{1\\le n \\le T}$ is a pre-visible random process in $\\mathbb{R}^{d+1}$ where we hold $\\theta_n ^i$ units of asset i during the $n$th period from time $n-1 \\to n$",
+        "tags": [
+          "price model"
+        ]
+      },
+      {
+        "id": "custom-mvgw7oc0-2qrqj6",
+        "front": "What does it mean for a portfolio, $(\\bar \\theta _n)_{1 \\le n \\le T}$,  to be self-financing?",
+        "back": "$\\bar \\theta_n \\bar S_n = \\bar \\theta_{n+1} \\bar S_n$ so the total value at end of period $n = $ total value at start of period $n-1$",
         "tags": [
           "price model"
         ]
