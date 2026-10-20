@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792512636514,
+  "updatedAt": 1792512874655,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -294,6 +294,14 @@
         "id": "custom-mvgvqq8x-irhotm",
         "front": "What does it mean to be numeriare?",
         "back": "$(S_n^0)_{0 \\le n \\le T}$ is numeraire if $S_n^0 > 0$ for all $n$.",
+        "tags": [
+          "price model"
+        ]
+      },
+      {
+        "id": "custom-mvgvvtzz-7yz3xp",
+        "front": "What is a T-period asset price model?",
+        "back": "$(\\bar S_n)_{0 \\le n \\le T}$ is a random process with $\\bar S_n = (S_n^0,S_n^1, \\dots , S_n^d) \\in \\mathbb{R}^{d+1}$. If $(S_n^0)_{0 \\le n \\le T}$ is numeraire, then it is a T-period asset price model where $(S^i_n)_{0 \\le n \\le T}$ is the price of one unit of asset $i$ at time $n$",
         "tags": [
           "price model"
         ]
