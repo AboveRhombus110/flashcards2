@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792515074939,
+  "updatedAt": 1792515335043,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -468,6 +468,14 @@
         "id": "custom-mv9cc445-hzpscg",
         "front": "What is the uncertainty principle?",
         "back": "$[\\hat x, \\hat p] = i \\hbar$ so there is always an uncertainty when measuring position and momentum simultaneously"
+      },
+      {
+        "id": "custom-mvgxckg2-zmwbk0",
+        "front": "What is an inner product?",
+        "back": "A map $V \\times V \\to \\mathbb{C}$ taking $|\\phi \\rangle, |\\psi\\rangle \\to \\langle\\phi| \\psi \\rangle = (|\\phi \\rangle)^*(| \\psi \\rangle)$",
+        "tags": [
+          "dirac"
+        ]
       }
     ]
   },
