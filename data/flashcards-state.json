@@ -1,75 +1,75 @@
 {
-  "updatedAt": 1792077090661,
+  "updatedAt": 1792077170322,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
-      "difficulty": 9.276079999999999,
+      "difficulty": 9.748472,
       "stability": 0.2,
-      "due": 1792077664534,
-      "reps": 6,
-      "lastReview": 1792077064534
+      "due": 1792077765108,
+      "reps": 7,
+      "lastReview": 1792077165108
     },
     "custom-mv7yp9rt-j5b25r": {
       "difficulty": 10,
       "stability": 0.2,
-      "due": 1792077665507,
-      "reps": 5,
-      "lastReview": 1792077065507
+      "due": 1792077765482,
+      "reps": 6,
+      "lastReview": 1792077165482
     },
     "custom-mv7ystdh-e1umq1": {
-      "difficulty": 9.14,
+      "difficulty": 9.626000000000001,
       "stability": 0.2,
-      "due": 1792077665877,
-      "reps": 3,
-      "lastReview": 1792077065877
+      "due": 1792077765845,
+      "reps": 4,
+      "lastReview": 1792077165845
     },
     "custom-mv7zwsc0-qlvdgy": {
-      "difficulty": 9.14,
+      "difficulty": 9.626000000000001,
       "stability": 0.2,
-      "due": 1792077666491,
-      "reps": 3,
-      "lastReview": 1792077066491
+      "due": 1792077766340,
+      "reps": 4,
+      "lastReview": 1792077166340
     },
     "custom-mv8e8stu-tjwykd": {
-      "difficulty": 9.14,
+      "difficulty": 9.626000000000001,
       "stability": 0.2,
-      "due": 1792077666826,
-      "reps": 3,
-      "lastReview": 1792077066826
+      "due": 1792077767054,
+      "reps": 4,
+      "lastReview": 1792077167054
     },
     "custom-mv8eevtj-oqksxj": {
-      "difficulty": 9.14,
+      "difficulty": 9.626000000000001,
       "stability": 0.2,
-      "due": 1792077667168,
-      "reps": 3,
-      "lastReview": 1792077067168
+      "due": 1792077767697,
+      "reps": 4,
+      "lastReview": 1792077167697
     },
     "custom-mv8ez1ep-owcwu7": {
-      "difficulty": 8.6,
+      "difficulty": 9.14,
       "stability": 0.2,
-      "due": 1792077667793,
-      "reps": 2,
-      "lastReview": 1792077067793
+      "due": 1792077768358,
+      "reps": 3,
+      "lastReview": 1792077168358
     },
     "custom-mv8ezudt-r21601": {
-      "difficulty": 8.6,
+      "difficulty": 9.14,
       "stability": 0.2,
-      "due": 1792077668373,
-      "reps": 2,
-      "lastReview": 1792077068373
+      "due": 1792077768947,
+      "reps": 3,
+      "lastReview": 1792077168947
     },
     "custom-mv8f3q2i-0yc0sp": {
-      "difficulty": 8.6,
+      "difficulty": 9.14,
       "stability": 0.2,
-      "due": 1792077669096,
-      "reps": 2,
-      "lastReview": 1792077069096
+      "due": 1792077769614,
+      "reps": 3,
+      "lastReview": 1792077169614
     },
     "custom-mv8f4ibq-6g4fu0": {
-      "difficulty": 8.6,
+      "difficulty": 9.14,
       "stability": 0.2,
-      "due": 1792077669588,
-      "reps": 2,
-      "lastReview": 1792077069588
+      "due": 1792077770322,
+      "reps": 3,
+      "lastReview": 1792077170322
     },
     "custom-mv8f8a1g-7kbs94": {
       "difficulty": 8.6,
