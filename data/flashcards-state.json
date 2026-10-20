@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792513427184,
+  "updatedAt": 1792513558808,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -326,6 +326,14 @@
         "id": "custom-mvgw7oc0-2qrqj6",
         "front": "What does it mean for a portfolio, $(\\bar \\theta _n)_{1 \\le n \\le T}$,  to be self-financing?",
         "back": "$\\bar \\theta_n \\bar S_n = \\bar \\theta_{n+1} \\bar S_n$ so the total value at end of period $n = $ total value at start of period $n-1$",
+        "tags": [
+          "price model"
+        ]
+      },
+      {
+        "id": "custom-mvgwahw8-ppe0lf",
+        "front": "What is the Value function?",
+        "back": "$(V_n)_{0 \\le n \\le T}$ is given by $V_n = \\bar \\theta_n \\bar X_n = \\sum_{i=0}^d \\theta^i_n X_n^i$ and $V_0 = \\bar \\theta_1 \\bar X_0$",
         "tags": [
           "price model"
         ]
