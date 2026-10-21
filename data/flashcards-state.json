@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792516977747,
+  "updatedAt": 1792578863042,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -637,6 +637,12 @@
     {
       "id": "customset-mv7yibh6-dl43np",
       "title": "Stochastic Finanical Modelling",
+      "description": "",
+      "cards": []
+    },
+    {
+      "id": "customset-mvhz66yp-2wgfwg",
+      "title": "Fluids",
       "description": "",
       "cards": []
     }
