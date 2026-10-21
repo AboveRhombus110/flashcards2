@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792606296627,
+  "updatedAt": 1792606385387,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -714,6 +714,15 @@
         "back": "$$\\rho \\frac{Du}{Dt} \\equiv \\rho \\left( \\frac{\\partial u}{\\partial t} + (u\\cdot \\nabla)u \\right) = f + \\nabla \\sigma$$",
         "tags": [
           "momentum"
+        ]
+      },
+      {
+        "id": "custom-mvifk3cb-sfy4mc",
+        "front": "What is the Navier-Stokes equation?",
+        "back": "For a Newtonian fluid,\n$$ \\rho \\frac{Du}{Dt} = f - \\nabla p + \\lambda \\nabla^2u $$",
+        "tags": [
+          "momentum",
+          "stress-strain"
         ]
       }
     ]
