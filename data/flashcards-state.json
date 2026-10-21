@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792605982028,
+  "updatedAt": 1792606144584,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -696,6 +696,14 @@
         "id": "custom-mvifbg3w-i2gu6u",
         "front": "What is the equation of $\\sigma_{ij}^{dev} = ...$?",
         "back": "$$\\sigma_{ij}^{dev} = \\mu \\left( \\frac{\\partial u_i}{\\partial x_j} + \\frac{\\partial u_j}{\\partial x_i} \\right)$$",
+        "tags": [
+          "stress-strain"
+        ]
+      },
+      {
+        "id": "custom-mvifexjc-cd6hrd",
+        "front": "What is the stress-strain relationship?",
+        "back": "$$ \\sigma_{ij} = -p \\delta_{ij} + \\mu \\left( \\frac{\\partial u_i}{\\partial x_j} + \\frac{\\partial u_j}{\\partial x_i} \\right) = -p \\delta_{ij} + 2 \\mu e_{ij} $$",
         "tags": [
           "stress-strain"
         ]
