@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792604410918,
+  "updatedAt": 1792605610958,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -685,6 +685,12 @@
         "tags": [
           "stress-strain"
         ]
+      },
+      {
+        "id": "custom-mvif3hse-je17ux",
+        "front": "What is a Newtonian fluid?",
+        "back": "If $\\sigma^{dev}$ is linear proportional to the local instananeous value of $\\nabla u$",
+        "tags": []
       }
     ]
   },
