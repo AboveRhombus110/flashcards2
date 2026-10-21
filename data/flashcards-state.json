@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792604235672,
+  "updatedAt": 1792604301916,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -666,6 +666,14 @@
         "id": "custom-mviea0m0-up6107",
         "front": "What is the stress tensor, $\\sigma(x,t)$?",
         "back": "Defined as $\\tau_i (\\underline n) = \\sigma_{ij}n_j$ where $\\underline n$ is the normal vector and $\\tau$ is the stress",
+        "tags": [
+          "stress-strain"
+        ]
+      },
+      {
+        "id": "custom-mviebfq3-v14ja2",
+        "front": "What is isotropic pressure?",
+        "back": "The symmetric part of the stress tensor denoted $p \\delta_{ij}$",
         "tags": [
           "stress-strain"
         ]
