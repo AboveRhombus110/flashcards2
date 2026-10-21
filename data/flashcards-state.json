@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792579083363,
+  "updatedAt": 1792579267201,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -637,6 +637,14 @@
         "tags": [
           "viscosity"
         ]
+      },
+      {
+        "id": "custom-mvhzeutc-5r8ab1",
+        "front": "What is shear stress?",
+        "back": "Stress due to the relative motion between layers of fluid",
+        "tags": [
+          "viscosity"
+        ]
       }
     ]
   },
@@ -873,6 +881,14 @@
       "back": "$\\mathbb{E}(ZX|G) = Z \\mathbb{E}(X|G)$ almost surely. This is known as \"taking out what is known\".",
       "tags": [
         "conditional expectation"
+      ]
+    },
+    "custom-mvhz89zj-7ycq7i": {
+      "front": "What is Couette flow?",
+      "back": "A shear of water due to movement of a rigid top plate at speed U",
+      "tags": [
+        "flows",
+        "viscosity"
       ]
     }
   },
