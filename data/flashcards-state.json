@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792579267201,
+  "updatedAt": 1792579532344,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -644,6 +644,14 @@
         "back": "Stress due to the relative motion between layers of fluid",
         "tags": [
           "viscosity"
+        ]
+      },
+      {
+        "id": "custom-mvhzkjef-m1n5p1",
+        "front": "What is the rate of strain tensor, $\\underline {\\underline e}?$",
+        "back": "Defined as $e_{ij} = \\frac{1}{2} (\\frac{\\partial u_i}{\\partial x_j} +  \\frac{\\partial u_j}{\\partial x_i})$",
+        "tags": [
+          "stress-strain"
         ]
       }
     ]
