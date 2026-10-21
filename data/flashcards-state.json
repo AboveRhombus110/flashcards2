@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792604301916,
+  "updatedAt": 1792604370042,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -674,6 +674,14 @@
         "id": "custom-mviebfq3-v14ja2",
         "front": "What is isotropic pressure?",
         "back": "The symmetric part of the stress tensor denoted $p \\delta_{ij}$",
+        "tags": [
+          "stress-strain"
+        ]
+      },
+      {
+        "id": "custom-mviecwai-9ecful",
+        "front": "What is deviatoric stress?",
+        "back": "The stress deviating from the isotropic stress denoted $\\sigma^{dev}_{ij}$",
         "tags": [
           "stress-strain"
         ]
