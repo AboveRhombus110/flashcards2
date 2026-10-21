@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792606144584,
+  "updatedAt": 1792606296627,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -706,6 +706,14 @@
         "back": "$$ \\sigma_{ij} = -p \\delta_{ij} + \\mu \\left( \\frac{\\partial u_i}{\\partial x_j} + \\frac{\\partial u_j}{\\partial x_i} \\right) = -p \\delta_{ij} + 2 \\mu e_{ij} $$",
         "tags": [
           "stress-strain"
+        ]
+      },
+      {
+        "id": "custom-mvifi6uq-qmmapr",
+        "front": "What is the Cauchy momentum equations?",
+        "back": "$$\\rho \\frac{Du}{Dt} \\equiv \\rho \\left( \\frac{\\partial u}{\\partial t} + (u\\cdot \\nabla)u \\right) = f + \\nabla \\sigma$$",
+        "tags": [
+          "momentum"
         ]
       }
     ]
