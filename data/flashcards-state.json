@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792605610958,
+  "updatedAt": 1792605669214,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -948,6 +948,13 @@
     "custom-mviebfq3-v14ja2": {
       "front": "What is isotropic pressure?",
       "back": "The stress arising from pressure denoted $p \\delta_{ij}$",
+      "tags": [
+        "stress-strain"
+      ]
+    },
+    "custom-mvif3hse-je17ux": {
+      "front": "What is a Newtonian fluid?",
+      "back": "i) $\\sigma^{dev}$ is linear proportional to the local instananeous value of $\\nabla u \\\\$\nii) fluid is locally isotropic",
       "tags": [
         "stress-strain"
       ]
