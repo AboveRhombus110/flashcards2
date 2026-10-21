@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792578960272,
+  "updatedAt": 1792579083363,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -628,6 +628,14 @@
         "tags": [
           "flows",
           "viscocity"
+        ]
+      },
+      {
+        "id": "custom-mvhzawyr-71d7h6",
+        "front": "What is the dynamic viscosity, $\\gamma$?",
+        "back": "The fluid's internal resistance to flow due to an external force/shearing",
+        "tags": [
+          "viscosity"
         ]
       }
     ]
