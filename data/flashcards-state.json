@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792579532344,
+  "updatedAt": 1792580023981,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -653,6 +653,14 @@
         "tags": [
           "stress-strain"
         ]
+      },
+      {
+        "id": "custom-mvhzv2qz-ew5aek",
+        "front": "What is the vorticity vector, $\\omega$?",
+        "back": "$\\omega = \\nabla \\times \\underline u$ or alteratively $$\\frac{1}{2}(\\frac{\\partial u_i}{\\partial x_j} - \\frac{\\partial u_j}{\\partial x_i}) = \\frac{1}{2} \\varepsilon_{ijk} \\omega_k$$",
+        "tags": [
+          "vorticity"
+        ]
       }
     ]
   },
@@ -897,6 +905,14 @@
       "tags": [
         "flows",
         "viscosity"
+      ]
+    },
+    "custom-mvhzeutc-5r8ab1": {
+      "front": "What is shear stress?",
+      "back": "Stress due to the relative motion between layers of fluid",
+      "tags": [
+        "viscosity",
+        "stress-strain"
       ]
     }
   },
