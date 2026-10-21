@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792606459317,
+  "updatedAt": 1792607444515,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -731,6 +731,15 @@
         "back": "$u$ is continuous across boundaries",
         "tags": [
           "flows"
+        ]
+      },
+      {
+        "id": "custom-mvig6skj-2govt4",
+        "front": "What is the mechanical energy equation?",
+        "back": "Dotting the Cauchy Momentum Equation with $u$, \n$$ \\frac{\\partial}{\\partial t}\\int_V \\frac{1}{2}\\rho u^2 \\partial V + \\int_{\\partial V} \\frac{1}{2}\\rho u^2(u \\cdot n) dS = \\int u \\cdot f \\partial V + \\int_{\\partial S} \\mu \\sigma \\cdot n dS - \\int_{\\partial V} \\sigma_{ij} e_{ij} dV$$",
+        "tags": [
+          "momentum",
+          "energy"
         ]
       }
     ]
