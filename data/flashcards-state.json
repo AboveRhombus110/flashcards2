@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792606385387,
+  "updatedAt": 1792606459317,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -723,6 +723,14 @@
         "tags": [
           "momentum",
           "stress-strain"
+        ]
+      },
+      {
+        "id": "custom-mviflodw-f80l00",
+        "front": "What is the no-slip boundary condition?",
+        "back": "$u$ is continuous across boundaries",
+        "tags": [
+          "flows"
         ]
       }
     ]
