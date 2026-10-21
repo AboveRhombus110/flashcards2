@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792604370042,
+  "updatedAt": 1792604410918,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 9.748472,
@@ -936,6 +936,13 @@
       "back": "Stress due to the relative motion between layers of fluid",
       "tags": [
         "viscosity",
+        "stress-strain"
+      ]
+    },
+    "custom-mviebfq3-v14ja2": {
+      "front": "What is isotropic pressure?",
+      "back": "The stress arising from pressure denoted $p \\delta_{ij}$",
+      "tags": [
         "stress-strain"
       ]
     }
