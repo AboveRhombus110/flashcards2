@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792682931723,
+  "updatedAt": 1792683006581,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -982,7 +982,8 @@
       "front": "What is a stopping time?",
       "back": "A random time $T: \\Omega \\to \\{ 0,1,2\\} \\cup \\{ \\infty \\} $ where $\\{ T \\le n \\} \\in \\mathcal{F}_n \\quad \\forall n$",
       "tags": [
-        "stopping"
+        "stopping",
+        "am defs"
       ]
     },
     "custom-mv8f8a1g-7kbs94": {
@@ -1340,6 +1341,23 @@
       "back": "An event occurs with probability 100% so event space of it not happening has measure 0.",
       "tags": [
         "sfm defs"
+      ]
+    },
+    "custom-mvguorn7-5rn3l7": {
+      "front": "What is a stopped process?",
+      "back": "If $M$ is a martingale process and $T$ is a stopping time, the stopped process is $M^T_n := M_{min(T,n)}$",
+      "tags": [
+        "martingales",
+        "stopping",
+        "am defs"
+      ]
+    },
+    "custom-mvgvqq8x-irhotm": {
+      "front": "What does it mean to be numeriare?",
+      "back": "$(S_n^0)_{0 \\le n \\le T}$ is numeraire if $S_n^0 > 0$ for all $n$.",
+      "tags": [
+        "price model",
+        "am defs"
       ]
     }
   },
