@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792682038898,
+  "updatedAt": 1792682189450,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -835,6 +835,14 @@
         "id": "custom-mvjollyp-1e1vya",
         "front": "If $St >> 1$, ...",
         "back": "If $St >> 1$, we have rapid oscillations so can neglect $\\underline u^* \\cdot \\nabla \\underline u^*$ and linearise",
+        "tags": [
+          "flows"
+        ]
+      },
+      {
+        "id": "custom-mvjoou4p-nerxaw",
+        "front": "If $Re << 1$, ...",
+        "back": "If $Re << 1$, it is viscously dominated so we neglect the LHS and approximate to Stokes Equation: $$ \n0 = -\\nabla p^* + \\nabla^2 \\underline u^*$$",
         "tags": [
           "flows"
         ]
