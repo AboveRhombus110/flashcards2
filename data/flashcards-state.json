@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792682636512,
+  "updatedAt": 1792682695849,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -1031,40 +1031,47 @@
       "front": "If 2 functions are asymptotically equal, what is the dominant term?",
       "back": "In the approximation, $f = g + (f-g),\\; g$ is the dominant term",
       "tags": [
-        "asy expansion"
+        "asy expansion",
+        "am defs"
       ]
     },
     "custom-mv8hq0ss-0wlqus": {
       "front": "If 2 functions are asymptotically equal, what is the subdominant term?",
       "back": "In the approximation, $f = g + (f-g), \\; (f-g)$ is the subdominant term",
       "tags": [
-        "asy expansion"
+        "asy expansion",
+        "am defs"
       ]
     },
     "custom-mv8hsgyb-780ta3": {
       "front": "What does it mean to be little \"o\"?",
       "back": "$f(x) = o(g(x))$ if \n$$\\lim_{x \\to x_0} \\frac{f(x)}{g(x)} = 0 $$\nor $f(x) << g(x)$ as $x \\to x_0$",
-      "tags": []
+      "tags": [
+        "am defs"
+      ]
     },
     "custom-mv8hxjzr-y6htif": {
       "front": "What is an asymptotic sequence?",
       "back": "$\\{ \\phi_i (x)\\}_{i=1}^n$ as $x \\to x_0$ if \n$$\\phi_{i+1} << \\phi_i \\quad\\forall i$$\nFor example, $\\phi_i = (x-a)^i$ as $x \\to a$",
       "tags": [
-        "asy expansion"
+        "asy expansion",
+        "am defs"
       ]
     },
     "custom-mv8i20z7-06iphq": {
       "front": "What is an N-term asymptotic approximation?",
       "back": "Given an asymptotic sequence $\\{ \\phi_k(x)\\}$ as $x \\to x_0$, \n$$f(x) \\sim\\sum_0^N a_k \\phi_k (x)$$\nif $$ f(x) = \\sum_0^N a_k \\phi_k (x) + o(\\phi_N(x)) $$",
       "tags": [
-        "asy expansion"
+        "asy expansion",
+        "am defs"
       ]
     },
     "custom-mv8i3q3s-qqjcgm": {
       "front": "What is an asymptotic series/expansion?",
       "back": "If an N-term asymptotic approximation holds for all n, then we say $$f(x) \\sim \\sum_0^{\\infty} a_k \\phi_k (x) \\text{ as }  x \\to x_0 $$",
       "tags": [
-        "asy expansion"
+        "asy expansion",
+        "am defs"
       ]
     },
     "custom-mv8ia3q6-fahipm": {
@@ -1078,7 +1085,8 @@
       "front": "When is a term \"small beyond all orders\" in some limit?",
       "back": "If it has no power series (smaller than any power) for example, $e^{-x}$ as $x \\to \\infty$ since  $e^{-x} << x^{-k} \\; \\forall k$",
       "tags": [
-        "asy expansion"
+        "asy expansion",
+        "am defs"
       ]
     },
     "custom-mvgtf8vw-lk3u4g": {
@@ -1249,6 +1257,21 @@
       "tags": [
         "operator",
         "qm defs"
+      ]
+    },
+    "custom-mv8hu057-5tznjh": {
+      "front": "What does it mean to be big \"O\"?",
+      "back": "$f(x) = O(g(x))$ if $\\exist c > 0$ such that $|f(x)| \\le cg(x)$ close to $x_0$",
+      "tags": [
+        "am defs"
+      ]
+    },
+    "custom-mvgt1zdu-vtwws9": {
+      "front": "What is the Stokes Phenomenon?",
+      "back": "For Complex expansions, we will have different asymptotic series in different sectors. The Stokes lines are boundaries where the approximations will break down as they approach.",
+      "tags": [
+        "asy expansion",
+        "am defs"
       ]
     }
   },
