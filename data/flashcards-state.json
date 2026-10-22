@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792681647117,
+  "updatedAt": 1792681716712,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -791,6 +791,15 @@
         "id": "custom-mvjod7nw-tmcdd4",
         "front": "What is the kinematic viscosity?",
         "back": "$v = \\frac{\\gamma}{\\rho}$",
+        "tags": [
+          "flows",
+          "fluid defs"
+        ]
+      },
+      {
+        "id": "custom-mvjoepd3-l1nhta",
+        "front": "What is the advection time?",
+        "back": "For a steady flow, we set $T = \\frac{L}{U}$ so then the Stroughal number $=1$",
         "tags": [
           "flows",
           "fluid defs"
