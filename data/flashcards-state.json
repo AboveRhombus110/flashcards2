@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792681276460,
+  "updatedAt": 1792681369023,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -746,6 +746,24 @@
         "id": "custom-mvjo59nv-ebv7cl",
         "front": "What is the equation for rate of doing work by surface forces?",
         "back": "$\\underline u \\cdot \\sigma \\cdot n = \\underline u \\cdot \\tau$",
+        "tags": [
+          "energy",
+          "stress-strain"
+        ]
+      },
+      {
+        "id": "custom-mvjo66ih-6q6ozi",
+        "front": "What is the equation for the rate of doing work against internal stresses due to deformation?",
+        "back": "$\\sigma_{ij} e_{ij}$",
+        "tags": [
+          "energy",
+          "stress-strain"
+        ]
+      },
+      {
+        "id": "custom-mvjo7932-brh85c",
+        "front": "What is the local viscous dissipation rate, $\\Phi$?",
+        "back": "$\\Phi = 2 \\gamma e_{ij} e_{ij}$",
         "tags": [
           "energy",
           "stress-strain"
