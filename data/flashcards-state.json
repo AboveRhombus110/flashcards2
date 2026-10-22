@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792682482746,
+  "updatedAt": 1792682548911,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -1143,6 +1143,78 @@
       "front": "What is a commutator?",
       "back": "For 2 observables, $\\hat A$ and $\\hat B$, \n$$[\\hat A, \\hat B] = \\hat A \\hat B - \\hat B \\hat A$$",
       "tags": [
+        "qm defs"
+      ]
+    },
+    "custom-mvgxckg2-zmwbk0": {
+      "front": "What is an inner product?",
+      "back": "A map $V \\times V \\to \\mathbb{C}$ taking $|\\phi \\rangle, |\\psi\\rangle \\to \\langle\\phi| \\psi \\rangle = (|\\phi \\rangle)^*(| \\psi \\rangle)$",
+      "tags": [
+        "dirac",
+        "qm defs"
+      ]
+    },
+    "custom-mvgxdizq-zswf1o": {
+      "front": "What is the norm in an inner product space?",
+      "back": "$||\\psi||^2 = \\langle \\psi | \\psi \\rangle \\ge 0$",
+      "tags": [
+        "dirac",
+        "qm defs"
+      ]
+    },
+    "custom-mvgxfugq-lsj3hh": {
+      "front": "What is an operator?",
+      "back": "A linear map on states $| \\psi \\rangle \\to Q| \\psi \\rangle: V \\to V$. It has linearity.",
+      "tags": [
+        "dirac",
+        "qm defs"
+      ]
+    },
+    "custom-mvgxj285-ayopqt": {
+      "front": "What is the Hermitian Conjugate, $Q^\\dagger$ of an operator?",
+      "back": "Defined as $\\langle \\psi | Q^\\dagger = (Q | \\psi\\rangle)^\\dagger$ for any $| \\psi \\rangle$",
+      "tags": [
+        "dirac",
+        "qm defs"
+      ]
+    },
+    "custom-mvgxkvo3-0c70ix": {
+      "front": "What is an observable?",
+      "back": "An operator that is Hermitian - corresponds to physical quantities e.g. position, momentum, energy...",
+      "tags": [
+        "dirac",
+        "qm defs"
+      ]
+    },
+    "custom-mvgxpsms-nat5a7": {
+      "front": "What is an eigenspace for an eigenvalue, $\\lambda$?",
+      "back": "$V_{\\lambda} = \\{ | \\psi \\rangle: Q| \\psi \\rangle = \\lambda |\\psi \\rangle \\}$",
+      "tags": [
+        "dirac",
+        "qm defs"
+      ]
+    },
+    "custom-mvgxs2la-97mglf": {
+      "front": "What is the degeneracy of an eigenvalue?",
+      "back": "The dimension of $V_{\\lambda}$",
+      "tags": [
+        "dirac",
+        "qm defs"
+      ]
+    },
+    "custom-mvgxvwac-62io1o": {
+      "front": "What is the time evaluation operator?",
+      "back": "$$e^{\\frac{-iHt}{\\hbar}}$$",
+      "tags": [
+        "operator",
+        "qm defs"
+      ]
+    },
+    "custom-mvgyaqiv-dtvtvs": {
+      "front": "What is the uncertainty (variance) of Q in state $| \\psi \\rangle$?",
+      "back": "$(\\Delta Q)^2_\\psi =  \\lang (Q - \\lang Q \\rang_\\psi)^2 \\rang = \\lang Q^2 \\rang_\\psi - (\\lang Q \\rang_\\psi)^2 $",
+      "tags": [
+        "operator",
         "qm defs"
       ]
     }
