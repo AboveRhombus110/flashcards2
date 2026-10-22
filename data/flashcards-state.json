@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792682695849,
+  "updatedAt": 1792682756848,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -1123,7 +1123,8 @@
       "back": "Stress due to the relative motion between layers of fluid",
       "tags": [
         "viscosity",
-        "stress-strain"
+        "stress-strain",
+        "fluid defs"
       ]
     },
     "custom-mviebfq3-v14ja2": {
@@ -1272,6 +1273,38 @@
       "tags": [
         "asy expansion",
         "am defs"
+      ]
+    },
+    "custom-mvhzawyr-71d7h6": {
+      "front": "What is the dynamic viscosity, $\\gamma$?",
+      "back": "The fluid's internal resistance to flow due to an external force/shearing",
+      "tags": [
+        "viscosity",
+        "fluid defs"
+      ]
+    },
+    "custom-mvhzkjef-m1n5p1": {
+      "front": "What is the rate of strain tensor, $\\underline {\\underline e}?$",
+      "back": "Defined as $e_{ij} = \\frac{1}{2} (\\frac{\\partial u_i}{\\partial x_j} +  \\frac{\\partial u_j}{\\partial x_i})$",
+      "tags": [
+        "stress-strain",
+        "fluid defs"
+      ]
+    },
+    "custom-mvhzv2qz-ew5aek": {
+      "front": "What is the vorticity vector, $\\omega$?",
+      "back": "$\\omega = \\nabla \\times \\underline u$ or alteratively $$\\frac{1}{2}(\\frac{\\partial u_i}{\\partial x_j} - \\frac{\\partial u_j}{\\partial x_i}) = \\frac{1}{2} \\varepsilon_{ijk} \\omega_k$$",
+      "tags": [
+        "vorticity",
+        "fluid defs"
+      ]
+    },
+    "custom-mviea0m0-up6107": {
+      "front": "What is the stress tensor, $\\sigma(x,t)$?",
+      "back": "Defined as $\\tau_i (\\underline n) = \\sigma_{ij}n_j$ where $\\underline n$ is the normal vector and $\\tau$ is the stress",
+      "tags": [
+        "stress-strain",
+        "fluid defs"
       ]
     }
   },
