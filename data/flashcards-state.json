@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792682825154,
+  "updatedAt": 1792682931723,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -897,21 +897,24 @@
       "front": "What properties are required to make $X_n$ martingale?",
       "back": "$\\forall n \\\\$a) $X_n$ is $\\mathcal{F}_n$-measurable $\\\\$\nb) $X_n$ is integrable $\\iff \\mathbb{E}(|X_n|) < \\infty \\\\$\nc) $\\forall A \\in \\mathcal{F}_n, \\mathbb{E}(X_{n+1}1_A = \\mathbb{E}(X_n 1_A))\\\\$\nc ii) Equivalent to $\\mathbb{E}(X_{n+1} |\\mathcal{F}_n  ) = X_n$",
       "tags": [
-        "martingales"
+        "martingales",
+        "sfm defs"
       ]
     },
     "custom-mv8ez1ep-owcwu7": {
       "front": "When is $X_n$ super-martingale?",
       "back": "Has the other martingale properties and\n$$\\mathbb{E}(X_{n+1}1_A) \\le \\mathbb{E}(X_n 1_A)$$",
       "tags": [
-        "martingales"
+        "martingales",
+        "sfm defs"
       ]
     },
     "custom-mv7yp9rt-j5b25r": {
       "front": "What is a random process?",
       "back": "A family of random variables $(X_n)_{n \\ge 0})$ where $X: \\Omega \\to \\mathbb{R}$",
       "tags": [
-        "martingales"
+        "martingales",
+        "sfm defs"
       ]
     },
     "custom-mv7ynmtg-kbn6kw": {
@@ -926,28 +929,32 @@
       "front": "What does it mean for a random process $(X_n)_{n \\ge 0}$ to be adapted?",
       "back": "$\\forall n, X_n \\text{ is } F_n \\text{-measurable}$. If no filtration is specified, the natural filtration is assumed.",
       "tags": [
-        "martingales"
+        "martingales",
+        "sfm defs"
       ]
     },
     "custom-mv7zwsc0-qlvdgy": {
       "front": "What does it mean for a random variable $X_n$ to be $\\mathcal{F}$-measurable?",
       "back": "If for every $A \\in \\mathbb{B(R)}$, $\\{\\omega \\in \\Omega :  X_n(\\omega) \\in A\\} \\in \\mathbb{\\mathcal{F}}$\n\nwhere the Borel Set is the collection of all subsets of $\\Omega$ including all countable unions/intersections and all complements.",
       "tags": [
-        "martingales"
+        "martingales",
+        "sfm defs"
       ]
     },
     "custom-mv8e8stu-tjwykd": {
       "front": "What is the natural filtration of $(X_n)_{n\\ge 0}$?",
       "back": "The natural filtration is the smallest filtration making $(X_n)$ adapted. It is constructed as $$\nF_n^X = \\sigma (X_k : 0 \\le k \\le n) = \\sigma (X_0, X_1,\\dots , X_n)$$",
       "tags": [
-        "martingales"
+        "martingales",
+        "sfm defs"
       ]
     },
     "custom-mv8ezudt-r21601": {
       "front": "When is $X_n$ sub-martingale?",
       "back": "Has the other martingale properties and\n$$\\mathbb{E}(X_{n+1}1_A) \\ge \\mathbb{E}(X_n 1_A)$$",
       "tags": [
-        "martingales"
+        "martingales",
+        "sfm defs"
       ]
     },
     "custom-mv8f4ibq-6g4fu0": {
@@ -982,7 +989,8 @@
       "front": "What is conditional expectation?",
       "back": "$\\mathbb{E}(\\cdot | B)$ and if $X$ is integrable, \n$$ \\mathbb{E}(X | B) =  \\frac{\\mathbb{E}(X 1_B)}{P(B)}$$",
       "tags": [
-        "conditional expectation"
+        "conditional expectation",
+        "am defs"
       ]
     },
     "custom-mv8gat8e-dhzdc6": {
@@ -1325,6 +1333,13 @@
         "energy",
         "stress-strain",
         "fluid defs"
+      ]
+    },
+    "custom-mv8f3q2i-0yc0sp": {
+      "front": "What does almost surely mean?",
+      "back": "An event occurs with probability 100% so event space of it not happening has measure 0.",
+      "tags": [
+        "sfm defs"
       ]
     }
   },
