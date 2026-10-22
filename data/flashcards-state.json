@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792682286484,
+  "updatedAt": 1792682412377,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -853,6 +853,15 @@
         "back": "If $Re >> 1$, we are inertially dominated on length scale $L$ so can neglect $\\nabla^{*2}\\underline u^*$ everywhere (becomes Euler equation) but not at rigid boundaries",
         "tags": [
           "flows"
+        ]
+      },
+      {
+        "id": "custom-mvjotm54-uvknnn",
+        "front": "What is the total dissipation?",
+        "back": "$$\\int_V \\Phi(\\underline x) \\partial V$$",
+        "tags": [
+          "flows",
+          "energy"
         ]
       }
     ]
