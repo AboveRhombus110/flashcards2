@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792683443064,
+  "updatedAt": 1792683489542,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -868,6 +868,14 @@
         "id": "custom-mvjpfpfb-l28to5",
         "front": "What is Stokes first problem?",
         "back": "The impulsively started plate, measuring how fluid at rest starts moving when a plate starts moving at speed $U$",
+        "tags": [
+          "flows"
+        ]
+      },
+      {
+        "id": "custom-mvjpgpad-wrk4pp",
+        "front": "What is Stokes 2nd problem?",
+        "back": "The oscillating plate measuring how water moves across an oscillating rigid plate",
         "tags": [
           "flows"
         ]
