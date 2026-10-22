@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792683067635,
+  "updatedAt": 1792683132110,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -1390,6 +1390,41 @@
       "tags": [
         "price model",
         "am defs"
+      ]
+    },
+    "custom-mvgwahw8-ppe0lf": {
+      "front": "What is the Value function?",
+      "back": "$(V_n)_{0 \\le n \\le T}$ is given by $V_n = \\bar \\theta_n \\bar X_n = \\sum_{i=0}^d \\theta^i_n X_n^i$ and $V_0 = \\bar \\theta_1 \\bar X_0$",
+      "tags": [
+        "price model",
+        "sfm defs"
+      ]
+    },
+    "custom-mvgx55ph-wyik2p": {
+      "front": "What is a (European) contingent claim, C, with maturity T?",
+      "back": "A non-negative $\\mathcal{F}_T$-measurable random variable where you are paid out C at fixed time T.",
+      "tags": [
+        "price model",
+        "options",
+        "sfm defs"
+      ]
+    },
+    "custom-mvgx681t-uuhweh": {
+      "front": "What is a call option?",
+      "back": "$(S_T - K)^+$ gives you a right to buy an asset at time T for price $K$",
+      "tags": [
+        "price model",
+        "options",
+        "sfm defs"
+      ]
+    },
+    "custom-mvgx6zqy-4kbqry": {
+      "front": "What is a put option?",
+      "back": "$(S_T - K)^-$ gives a right to sell an asset at time T for price $K$",
+      "tags": [
+        "price model",
+        "options",
+        "sfm defs"
       ]
     }
   },
