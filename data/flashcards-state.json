@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792682189450,
+  "updatedAt": 1792682286484,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -843,6 +843,14 @@
         "id": "custom-mvjoou4p-nerxaw",
         "front": "If $Re << 1$, ...",
         "back": "If $Re << 1$, it is viscously dominated so we neglect the LHS and approximate to Stokes Equation: $$ \n0 = -\\nabla p^* + \\nabla^2 \\underline u^*$$",
+        "tags": [
+          "flows"
+        ]
+      },
+      {
+        "id": "custom-mvjoqx03-jgy9r4",
+        "front": "If $Re >> 1$, ...",
+        "back": "If $Re >> 1$, we are inertially dominated on length scale $L$ so can neglect $\\nabla^{*2}\\underline u^*$ everywhere (becomes Euler equation) but not at rigid boundaries",
         "tags": [
           "flows"
         ]
