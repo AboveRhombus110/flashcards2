@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792667279342,
+  "updatedAt": 1792667297864,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -9,11 +9,11 @@
       "lastReview": 1792667279342
     },
     "custom-mv7yp9rt-j5b25r": {
-      "difficulty": 10,
-      "stability": 0.2,
-      "due": 1792077765482,
-      "reps": 6,
-      "lastReview": 1792077165482
+      "difficulty": 9.95,
+      "stability": 0.16001195649545558,
+      "due": 1792681122897.0413,
+      "reps": 7,
+      "lastReview": 1792667297864
     },
     "custom-mv7ystdh-e1umq1": {
       "difficulty": 9.626000000000001,
