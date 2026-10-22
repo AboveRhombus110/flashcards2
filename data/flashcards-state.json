@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792681875480,
+  "updatedAt": 1792681964618,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -821,6 +821,14 @@
         "tags": [
           "flows",
           "fluid defs"
+        ]
+      },
+      {
+        "id": "custom-mvjok0nd-ln6bp8",
+        "front": "If $St << 1$, ...",
+        "back": "If $St << 1$, we have slow oscillations so can ignore $\\frac{\\partial u^*}{\\partial t}$ implying a quasi-steady flow",
+        "tags": [
+          "flows"
         ]
       }
     ]
