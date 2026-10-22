@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792667297864,
+  "updatedAt": 1792681136939,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -1007,6 +1007,14 @@
       "back": "i) $\\sigma^{dev}$ is linear proportional to the local instananeous value of $\\nabla u \\\\$\nii) fluid is locally isotropic",
       "tags": [
         "stress-strain"
+      ]
+    },
+    "custom-mvig6skj-2govt4": {
+      "front": "What is the mechanical energy equation?",
+      "back": "Dotting the Cauchy Momentum Equation with $u$, \n$$ \\frac{\\partial}{\\partial t}\\int_V \\frac{1}{2}\\rho u^2 \\partial V + \\int_{\\partial V} \\frac{1}{2}\\rho u^2(u \\cdot n) dS = \\int u \\cdot f \\partial V + \\int_{\\partial S} \\mu \\sigma \\cdot n dS - \\int_{\\partial V} \\sigma_{ij} e_{ij} dV$$",
+      "tags": [
+        "momentum",
+        "energy"
       ]
     }
   },
