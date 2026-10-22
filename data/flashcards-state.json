@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792682756848,
+  "updatedAt": 1792682825154,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -918,7 +918,8 @@
       "front": "What is a filtration given a probability space $(\\Omega, \\mathcal{F}, \\mathbb{P})$?",
       "back": "A family of $\\sigma$-algebras $(\\mathcal{F}_n)_{n \\ge 0}$ such that $\\mathcal{F_n} \\subseteq \\mathcal{F_{n+1}} \\subseteq \\mathcal{F} \\quad \\forall n$",
       "tags": [
-        "martingales"
+        "martingales",
+        "sfm defs"
       ]
     },
     "custom-mv7ystdh-e1umq1": {
@@ -1131,14 +1132,16 @@
       "front": "What is isotropic pressure?",
       "back": "The stress arising from pressure denoted $p \\delta_{ij}$",
       "tags": [
-        "stress-strain"
+        "stress-strain",
+        "fluid defs"
       ]
     },
     "custom-mvif3hse-je17ux": {
       "front": "What is a Newtonian fluid?",
       "back": "i) $\\sigma^{dev}$ is linear proportional to the local instananeous value of $\\nabla u \\\\$\nii) fluid is locally isotropic",
       "tags": [
-        "stress-strain"
+        "stress-strain",
+        "fluid defs"
       ]
     },
     "custom-mvig6skj-2govt4": {
@@ -1303,6 +1306,23 @@
       "front": "What is the stress tensor, $\\sigma(x,t)$?",
       "back": "Defined as $\\tau_i (\\underline n) = \\sigma_{ij}n_j$ where $\\underline n$ is the normal vector and $\\tau$ is the stress",
       "tags": [
+        "stress-strain",
+        "fluid defs"
+      ]
+    },
+    "custom-mviecwai-9ecful": {
+      "front": "What is deviatoric stress?",
+      "back": "The stress deviating from the isotropic stress denoted $\\sigma^{dev}_{ij}$",
+      "tags": [
+        "stress-strain",
+        "fluid defs"
+      ]
+    },
+    "custom-mvjo7932-brh85c": {
+      "front": "What is the local viscous dissipation rate, $\\Phi$?",
+      "back": "$\\Phi = 2 \\gamma e_{ij} e_{ij}$",
+      "tags": [
+        "energy",
         "stress-strain",
         "fluid defs"
       ]
