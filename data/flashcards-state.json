@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792682412377,
+  "updatedAt": 1792682482746,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -1137,6 +1137,13 @@
       "tags": [
         "momentum",
         "energy"
+      ]
+    },
+    "custom-mv9bui06-2mjkbw": {
+      "front": "What is a commutator?",
+      "back": "For 2 observables, $\\hat A$ and $\\hat B$, \n$$[\\hat A, \\hat B] = \\hat A \\hat B - \\hat B \\hat A$$",
+      "tags": [
+        "qm defs"
       ]
     }
   },
