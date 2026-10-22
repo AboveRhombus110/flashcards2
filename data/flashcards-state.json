@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792681716712,
+  "updatedAt": 1792681792582,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -800,6 +800,15 @@
         "id": "custom-mvjoepd3-l1nhta",
         "front": "What is the advection time?",
         "back": "For a steady flow, we set $T = \\frac{L}{U}$ so then the Stroughal number $=1$",
+        "tags": [
+          "flows",
+          "fluid defs"
+        ]
+      },
+      {
+        "id": "custom-mvjogbwl-k7a6xi",
+        "front": "What is the unsteady Reynold's number?",
+        "back": "If boundary conditions are oscillatory, set $T = \\frac{1}{\\omega}$ and $Re_{T} = Re \\cdot St$",
         "tags": [
           "flows",
           "fluid defs"
