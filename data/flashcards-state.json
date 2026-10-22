@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792681792582,
+  "updatedAt": 1792681875480,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -809,6 +809,15 @@
         "id": "custom-mvjogbwl-k7a6xi",
         "front": "What is the unsteady Reynold's number?",
         "back": "If boundary conditions are oscillatory, set $T = \\frac{1}{\\omega}$ and $Re_{T} = Re \\cdot St$",
+        "tags": [
+          "flows",
+          "fluid defs"
+        ]
+      },
+      {
+        "id": "custom-mvjoi3vb-bk5afk",
+        "front": "What are dynamically similar flows?",
+        "back": "They have different time, length and speed scales but have the same shape, $Re, St$ and dimensionless boundary conditions so have the same $\\underline u^*$",
         "tags": [
           "flows",
           "fluid defs"
