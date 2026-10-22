@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792683132110,
+  "updatedAt": 1792683201412,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -1349,7 +1349,7 @@
       "tags": [
         "martingales",
         "stopping",
-        "am defs"
+        "sfm defs"
       ]
     },
     "custom-mvgvqq8x-irhotm": {
@@ -1357,7 +1357,7 @@
       "back": "$(S_n^0)_{0 \\le n \\le T}$ is numeraire if $S_n^0 > 0$ for all $n$.",
       "tags": [
         "price model",
-        "am defs"
+        "sfm defs"
       ]
     },
     "custom-mvgvvtzz-7yz3xp": {
@@ -1365,7 +1365,7 @@
       "back": "$(\\bar S_n)_{0 \\le n \\le T}$ is a random process with $\\bar S_n = (S_n^0,S_n^1, \\dots , S_n^d) \\in \\mathbb{R}^{d+1}$. If $(S_n^0)_{0 \\le n \\le T}$ is numeraire, then it is a T-period asset price model where $(S^i_n)_{0 \\le n \\le T}$ is the price of one unit of asset $i$ at time $n$",
       "tags": [
         "price model",
-        "am defs"
+        "sfm defs"
       ]
     },
     "custom-mvgw0ged-mesbqd": {
@@ -1373,7 +1373,7 @@
       "back": "Since $(S_n^0)_{0 \\le n \\le T}$ represents the bank/bond, we write $S_n^0 = (1+r_n)S_{n-1}^0$ with $r_n$ the interest rate $$\\bar X_n = \\frac{\\bar S_n}{S_n^0}$$ is used to compare to the rate of return on interest.",
       "tags": [
         "price model",
-        "am defs"
+        "sfm defs"
       ]
     },
     "custom-mvgw3hh4-m5egmt": {
@@ -1381,7 +1381,7 @@
       "back": "$(\\bar \\theta_n)_{1\\le n \\le T}$ is a pre-visible random process in $\\mathbb{R}^{d+1}$ where we hold $\\theta_n ^i$ units of asset i during the $n$th period from time $n-1 \\to n$",
       "tags": [
         "price model",
-        "am defs"
+        "sfm defs"
       ]
     },
     "custom-mvgw7oc0-2qrqj6": {
@@ -1389,7 +1389,7 @@
       "back": "$\\bar \\theta_n \\bar S_n = \\bar \\theta_{n+1} \\bar S_n$ so the total value at end of period $n = $ total value at start of period $n-1$",
       "tags": [
         "price model",
-        "am defs"
+        "sfm defs"
       ]
     },
     "custom-mvgwahw8-ppe0lf": {
