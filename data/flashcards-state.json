@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792681964618,
+  "updatedAt": 1792682038898,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -827,6 +827,14 @@
         "id": "custom-mvjok0nd-ln6bp8",
         "front": "If $St << 1$, ...",
         "back": "If $St << 1$, we have slow oscillations so can ignore $\\frac{\\partial u^*}{\\partial t}$ implying a quasi-steady flow",
+        "tags": [
+          "flows"
+        ]
+      },
+      {
+        "id": "custom-mvjollyp-1e1vya",
+        "front": "If $St >> 1$, ...",
+        "back": "If $St >> 1$, we have rapid oscillations so can neglect $\\underline u^* \\cdot \\nabla \\underline u^*$ and linearise",
         "tags": [
           "flows"
         ]
