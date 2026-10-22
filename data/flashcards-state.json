@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792681136939,
+  "updatedAt": 1792681276460,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -740,6 +740,15 @@
         "tags": [
           "momentum",
           "energy"
+        ]
+      },
+      {
+        "id": "custom-mvjo59nv-ebv7cl",
+        "front": "What is the equation for rate of doing work by surface forces?",
+        "back": "$\\underline u \\cdot \\sigma \\cdot n = \\underline u \\cdot \\tau$",
+        "tags": [
+          "energy",
+          "stress-strain"
         ]
       }
     ]
