@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1793049012973,
+  "updatedAt": 1793049074784,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -427,6 +427,48 @@
       "due": 1793049612973,
       "reps": 1,
       "lastReview": 1793049012973
+    },
+    "custom-mvjoepd3-l1nhta": {
+      "difficulty": 8,
+      "stability": 0.4,
+      "due": 1793049624672,
+      "reps": 1,
+      "lastReview": 1793049024672
+    },
+    "custom-mvjogbwl-k7a6xi": {
+      "difficulty": 5,
+      "stability": 3,
+      "due": 1793308228590,
+      "reps": 1,
+      "lastReview": 1793049028590
+    },
+    "custom-mvjoi3vb-bk5afk": {
+      "difficulty": 5,
+      "stability": 3,
+      "due": 1793308236010,
+      "reps": 1,
+      "lastReview": 1793049036010
+    },
+    "custom-mvjok0nd-ln6bp8": {
+      "difficulty": 8,
+      "stability": 0.4,
+      "due": 1793049651262,
+      "reps": 1,
+      "lastReview": 1793049051262
+    },
+    "custom-mvjollyp-1e1vya": {
+      "difficulty": 8,
+      "stability": 0.4,
+      "due": 1793049663613,
+      "reps": 1,
+      "lastReview": 1793049063613
+    },
+    "custom-mvjoou4p-nerxaw": {
+      "difficulty": 6,
+      "stability": 1,
+      "due": 1793135474783,
+      "reps": 1,
+      "lastReview": 1793049074783
     }
   },
   "customCards": {
