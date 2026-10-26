@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1793022289514,
+  "updatedAt": 1793048838696,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -289,18 +289,18 @@
       "lastReview": 1793022197844
     },
     "custom-mvhzawyr-71d7h6": {
-      "difficulty": 8,
-      "stability": 0.4,
-      "due": 1793022803512,
-      "reps": 1,
-      "lastReview": 1793022203512
+      "difficulty": 8.6,
+      "stability": 0.2,
+      "due": 1793049377799,
+      "reps": 2,
+      "lastReview": 1793048777799
     },
     "custom-mvhzeutc-5r8ab1": {
-      "difficulty": 8,
-      "stability": 0.4,
-      "due": 1793022808364,
-      "reps": 1,
-      "lastReview": 1793022208364
+      "difficulty": 8.15,
+      "stability": 0.3493706491805548,
+      "due": 1793078975376.089,
+      "reps": 2,
+      "lastReview": 1793048789752
     },
     "custom-mvhzkjef-m1n5p1": {
       "difficulty": 5,
@@ -317,18 +317,18 @@
       "lastReview": 1793022224881
     },
     "custom-mviea0m0-up6107": {
-      "difficulty": 8,
-      "stability": 0.4,
-      "due": 1793022834618,
-      "reps": 1,
-      "lastReview": 1793022234618
+      "difficulty": 8.6,
+      "stability": 0.2,
+      "due": 1793049399519,
+      "reps": 2,
+      "lastReview": 1793048799519
     },
     "custom-mviebfq3-v14ja2": {
-      "difficulty": 8,
-      "stability": 0.4,
-      "due": 1793022839887,
-      "reps": 1,
-      "lastReview": 1793022239887
+      "difficulty": 8.15,
+      "stability": 0.34936455579743997,
+      "due": 1793078992666.6208,
+      "reps": 2,
+      "lastReview": 1793048807569
     },
     "custom-mviecwai-9ecful": {
       "difficulty": 6,
@@ -338,25 +338,25 @@
       "lastReview": 1793022245254
     },
     "custom-mvif3hse-je17ux": {
-      "difficulty": 8,
-      "stability": 0.4,
-      "due": 1793022853639,
-      "reps": 1,
-      "lastReview": 1793022253639
+      "difficulty": 8.6,
+      "stability": 0.2,
+      "due": 1793049418640,
+      "reps": 2,
+      "lastReview": 1793048818640
     },
     "custom-mvifbg3w-i2gu6u": {
-      "difficulty": 8,
-      "stability": 0.4,
-      "due": 1793022862973,
-      "reps": 1,
-      "lastReview": 1793022262973
+      "difficulty": 8.6,
+      "stability": 0.2,
+      "due": 1793049423592,
+      "reps": 2,
+      "lastReview": 1793048823592
     },
     "custom-mvifexjc-cd6hrd": {
-      "difficulty": 8,
-      "stability": 0.4,
-      "due": 1793022881807,
-      "reps": 1,
-      "lastReview": 1793022281807
+      "difficulty": 8.6,
+      "stability": 0.2,
+      "due": 1793049438696,
+      "reps": 2,
+      "lastReview": 1793048838696
     },
     "custom-mvifi6uq-qmmapr": {
       "difficulty": 8,
