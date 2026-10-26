@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1792713490459,
+  "updatedAt": 1792713497378,
   "schedule": {
     "custom-mv7ynmtg-kbn6kw": {
       "difficulty": 10,
@@ -273,6 +273,13 @@
       "due": 1792799890459,
       "reps": 1,
       "lastReview": 1792713490459
+    },
+    "custom-mvgybryr-mbb556": {
+      "difficulty": 3,
+      "stability": 6,
+      "due": 1793231897378,
+      "reps": 1,
+      "lastReview": 1792713497378
     }
   },
   "customCards": {
