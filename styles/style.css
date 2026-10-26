@@ -291,16 +291,42 @@ main {
   width: 100%;
 }
 
-/* Force override KaTeX block alignment so it centers properly */
-.card-face-text .katex-display {
+/* Display equations ($$ ... $$).
+   - Centered, but allowed to WRAP at =, +, \implies, \to etc. KaTeX forces
+     display math onto one line by default, which runs off the screen on a
+     phone.
+   - If something still can't wrap (a wide matrix, a long fraction) it
+     scrolls sideways inside the card instead of being cut off. */
+.card-face-text .katex-display,
+.live-preview .katex-display {
   display: block !important;
   text-align: center !important;
   margin: 0.75rem auto !important;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25em 0; /* stops the scroll box clipping sub/superscripts */
+  -webkit-overflow-scrolling: touch;
 }
 
-.card-face-text .katex-display > .katex {
+.card-face-text .katex-display > .katex,
+.live-preview .katex-display > .katex {
   display: inline-block !important;
+  white-space: normal !important; /* KaTeX sets nowrap here; allow wrapping */
+  max-width: 100%;
   text-align: center !important;
+}
+
+/* Phones: less padding so equations get more of the screen width */
+@media (max-width: 600px) {
+  .card.card-flat-display {
+    padding: 1.25rem 1rem;
+    min-height: 220px;
+  }
+
+  .card-face-text {
+    font-size: 1.1rem;
+  }
 }
 
 /* ---------- Rating buttons ---------- */
