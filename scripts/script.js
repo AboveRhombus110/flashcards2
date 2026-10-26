@@ -627,7 +627,27 @@ function renderMath(container) {
       ],
       throwOnError: false,
     });
+    fitDisplayMath(container);
   }
+}
+
+// Shrinks any display equation ($$ ... $$) that is wider than its box so it
+// fits without side-scrolling, down to a still-readable minimum (65%).
+// Anything wider than that falls back to scrolling sideways (see the
+// .katex-display rules in style.css). Skips hidden elements, since they
+// have no measurable width.
+function fitDisplayMath(container) {
+  container.querySelectorAll(".katex-display").forEach((display) => {
+    const katex = display.querySelector(".katex");
+    if (!katex || display.clientWidth === 0) return;
+
+    katex.style.fontSize = ""; // back to KaTeX's default (1.21em)
+    let scale = 1;
+    while (display.scrollWidth > display.clientWidth + 1 && scale > 0.65) {
+      scale -= 0.05;
+      katex.style.fontSize = 1.21 * scale + "em";
+    }
+  });
 }
 
 // Creates a preview element that mirrors a textarea's content with LaTeX
